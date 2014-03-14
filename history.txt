@@ -1,0 +1,1000 @@
+   84  mongo 192.168.8.158:27800/hhb test.js 
+   85  mongo 192.168.8.158:27800/hhb test.js 
+   86  ll
+   87  cd data_update
+   88  ll
+   89  cd groups/
+   90  ll
+   91  mongo 192.168.8.158:27800/hhb score_rank1
+   92  mongo 192.168.8.158:27800/hhb score_rank1.js 
+   93  mongo 192.168.8.158:27800/hhb score_rank1.js 
+   94  mongo 192.168.8.158:27800/hhb score_rank1.js 
+   95  mongo 192.168.8.158:27800/hhb score_rank1.js 
+   96  ll
+   97  cd ..
+   98  ll
+   99  cd ..
+  100  ll
+  101  mongo 192.168.8.158:27800/hhb test.js
+  102  mongo 192.168.8.158:27800/hhb test.js
+  103  mongo 192.168.8.158:27800/hhb test.js
+  104  cd data_update
+  105  ll
+  106  cd groups/
+  107  ll
+  108  mongo 192.168.8.158:27800/hhb score_rank1.js 
+  109  mongo 192.168.8.158:27800/hhb score_rank1.js 
+  110  mongo 192.168.8.158:27800/hhb score_rank1.js 
+  111  oscar 
+  112  cd mongodb/
+  113  cd mongo_js/
+  114  ll
+  115  cd data_update
+  116  ll
+  117  ./mongo.sh 
+  118  ll
+  119  oscar
+  120  ll
+  121  cd
+  122  ll
+  123  rm -rf test.txt 
+  124  ll
+  125  cd Desktop/
+  126  ll
+  127  cd
+  128  ll
+  129  su -i qict777
+  130  su --help
+  131  su - qict777
+  132  su - oscar
+  133  exit
+  134  pwd
+  135  ll
+  136  cd ..
+  137  ll
+  138  cd windows/
+  139  ll
+  140  mkdir hhb
+  141  ll
+  142  free
+  143  tree
+  144  ll
+  145  ll
+  146  git config
+  147  git --global
+  148  git status
+  149  cat /etc/gitconfig
+  150  git config --list
+  151  ll
+  152  pwd
+  153  mkdir gitwork
+  154  cd gitwork/
+  155  git init
+  156  ll
+  157  ls -la
+  158  cp ../mongo_js/ .
+  159  ll
+  160  pwd
+  161  cp ../mongo_js/ /home/windows/gitwork/
+  162  ll
+  163  cp ../mongo_js /home/windows/gitwork/
+  164  cp ../mongo_js/* /home/windows/gitwork/
+  165  ll
+  166  rm -rf .
+  167  rm -rf readme.txt 
+  168  ll
+  169  ll -al
+  170  cp /home/windows/mongo_js/ /home/windows/gitwork/
+  171  cd /home/windows/gitwork/
+  172  ll
+  173  cd /home/windows/
+  174  ll
+  175  cp mongo_js /home/windows/gitwork/
+  176  cd /home/windows/gitwork/
+  177  ll
+  178  su
+  179  pwd
+  180  cd ..
+  181  ll
+  182  mkdir github
+  183  cd github/
+  184  ll
+  185  ssh-keygen -t rsa -C "oscar@huanhuba.com"
+  186  ssh-keygen -t rsa -C "oscar@huanhuba.com"
+  187  ssh-keygen -t rsa -C "oscar@huanhuba.com"
+  188  vi /home/oscar/.ssh/id_rsa
+  189  vi /home/oscar/.ssh/id_rsa.pub 
+  190  PWD
+  191  pwd
+  192  ssh git@github.com
+  193  git pull https://github.com/qict777/thinkphp
+  194  mkdir thinkphp
+  195  cd thinkphp/
+  196  git init
+  197  git pull https://github.com/qict777/thinkphp
+  198  git pull github.com/qict777/thinkphp
+  199  git clone https://github.com/ryanb/railscasts-episodes.git Rails
+  200  git clone https://github.com/res0nat0r/gitosis.git
+  201  git log
+  202  cd ..
+  203  ll
+  204  cd ..
+  205  cd gitwork/
+  206  ll
+  207  cd ..
+  208  ll
+  209  rm -rf github/
+  210  ll
+  211  cd gitwork/
+  212  ll
+  213  git log
+  214  git status
+  215  pwd
+  216  ll
+  217  cd ..
+  218  ll
+  219  mkdir github
+  220  ll
+  221  cd github/
+  222  ssh-keygen
+  223  cd /home/oscar/.ssh/
+  224  ll
+  225  more id_rsa.pub 
+  226  cd ..
+  227  cd ..
+  228  ll
+  229  cd windows/
+  230  ll
+  231  cd github/
+  232  ll
+  233  cd
+  234  vi  .gitconfig 
+  235  vi  .gitconfig 
+  236  ll
+  237  cd ..
+  238  cd windows/
+  239  cd github/
+  240  ll
+  241  touch readme.txt
+  242  git init
+  243  git add readme.txt 
+  244  git commit -m "first commit"
+  245  git remote add origin https://github.com/qict777/hhb.git
+  246  git push -u origin master
+  247  git --version
+  248  su
+  249  history
+  250  git remote -v
+  251  git remote
+  252  git push -u origin master
+  253  git clone git@github.com:qict777/hhb.git
+  254  git fetch origin
+  255  cd /usr/local/work/
+  256  ll
+  257  cd git/
+  258  ll
+  259  cd bin/
+  260  ll
+  261  cd ..
+  262  ll
+  263  cd lib
+  264  ll
+  265  cd perl5/
+  266  ll
+  267  cd ..
+  268  ll
+  269  cd ..
+  270  ll
+  271  cd libexec/
+  272  ll
+  273  cd git-core/
+  274  ll
+  275  cd ..
+  276  ll
+  277  cd ..
+  278  ll
+  279  cd share/
+  280  ll
+  281  cd ..
+  282  cd ..
+  283  ll
+  284  cd ..
+  285  ll
+  286  cd oscar/
+  287  ll
+  288  cd git-1.8.5
+  289  ll
+  290  cd contrib/
+  291  ll
+  292  cd completion/
+  293  ll
+  294  cp git-completion.bash ~/.git-completion.bash
+  295  cd
+  296  ll
+  297  ll
+  298  ls -a
+  299  ls -la
+  300  vi .bashrc 
+  301  cat .bashrc 
+  302  exit
+  303  git --version 
+  304  ll
+  305  cd ..
+  306  ll
+  307  cd windows/
+  308  ll
+  309  cd gitwork/
+  310  ll
+  311  ls -la
+  312  git remote -v
+  313  git remote -v
+  314  cd ../github/
+  315  ll
+  316  ls -al
+  317  git remote -v
+  318  git remote -v
+  319  cd
+  320  ls -al
+  321  cd .ssh/
+  322  ll
+  323  more id_rsa.pub 
+  324  cd ..
+  325  ll
+  326  cd ../windows/
+  327  ll
+  328  mv config id_rsa id_rsa.pub known_hosts oscar ~/.ssh/
+  329  cd ~/.ssh/
+  330  ll
+  331  cat config 
+  332  cat id_rsa
+  333  ll
+  334  cat id_rsa
+  335  cat id_rsa.pub 
+  336  ll
+  337  cat known_hosts 
+  338  cat oscar 
+  339  cd ..
+  340  ll
+  341  cd ../windows/
+  342  ll
+  343  rm -rf github/
+  344  ll
+  345  cd gitwork/
+  346  ll
+  347  ls -la
+  348  cd ..
+  349  ll
+  350  mkdir oscar
+  351  ll
+  352  cd oscar/
+  353  git branch oscar
+  354  git init
+  355  git branch oscar
+  356  ll
+  357  ls -al
+  358  git checkout -b -oscar
+  359  git branch oscar_master
+  360  git checkout -b -oscar
+  361  ll
+  362  git log
+  363  git add .
+  364  git status
+  365  git commit -m "the first commit"
+  366  git status
+  367  git log
+  368  git diff
+  369  git push https://github.com/qict777/hhb
+  370  git config --list
+  371  git remote -v
+  372  git remote add origin git@github.com:qict777/hhb.git
+  373  git remote -v
+  374  git push -u origin master
+  375  git remote add oscar git@github.com:qict777/hhb.git
+  376  git push -u oscar oscar2
+  377  git remote -v
+  378  cd ~/.ssh/
+  379  ll
+  380  cat id_rsa
+  381  ll
+  382  cat id_rsa.pub 
+  383  cd ~/
+  384  ll
+  385  cd ../windows/
+  386  ll
+  387  cd oscar/
+  388  ll
+  389  ls -a
+  390  git remote add oscar https://github.com/qict777/oscar.git
+  391  git remote add oscar12 https://github.com/qict777/oscar.git
+  392  git push -u oscar12 master
+  393  git remote -v
+  394  git remote add oscar34 git@github.com:qict777/oscar.git
+  395  git push -u oscar34 master
+  396  git push -u oscar34 master
+  397  more ~/.ssh/known_hosts 
+  398  vi ~/.ssh/known_hosts 
+  399  vi ~/.ssh/known_hosts 
+  400  cp ~/.ssh/known_hosts ~/.ssh/known_hosts_backup
+  401  ll ~/.ssh/
+  402  vi ~/.ssh/known_hosts 
+  403  git push -u oscar34 master
+  404  cat ~/.ssh/id_rsa.pub 
+  405  cat ~/.ssh/id_rsa
+  406  cd ~
+  407  ll
+  408  ll .ssh/
+  409  rm -rf .ssh/
+  410  ll .ssh/
+  411  cd ../window
+  412  cd ../windows
+  413  ll
+  414  git remote 
+  415  git remote -v
+  416  cd oscar/
+  417  git remote -v
+  418  ssh-keygen -t rsa -C "seven_qi@foxmail.com"
+  419  ll ~/.ssh/
+  420  cat ~/.ssh/id_rsa.pub 
+  421  ssh -T git@github.com
+  422  git status
+  423  git log
+  424  git remote -v
+  425  git remote add oscarhhb git@github.com:qict777/oscarhhb.git
+  426  git remote -v
+  427  git push -u oscarhhb master
+  428  git log
+  429  git diff
+  430  git status
+  431  git remote -v
+  432  git status
+  433  history
+  434  git config --list
+  435  cd
+  436  ll
+  437  ls -al
+  438  more .gitconfig 
+  439  git status
+  440  cd ../windows/
+  441  ll
+  442  cd oscar/
+  443  ll
+  444  git status
+  445  ll
+  446  cd ..
+  447  ll
+  448  ll
+  449  cd hhb
+  450  ll
+  451  ..
+  452  rm -rf hhb
+  453  ll
+  454  cd ..
+  455  ll
+  456  rm -rf hhb
+  457  ll
+  458  cd gitwork/
+  459  ll
+  460  cd ..
+  461  ll
+  462  rm -rf gitwork/
+  463  ll
+  464  rm -rf gitwork/
+  465  cd gitwork/
+  466  ll
+  467  cd mongo_js/
+  468  ll
+  469  cd data_update/
+  470  ll
+  471  cd groups/
+  472  ll
+  473  cd ../../..
+  474  ll
+  475  cd ..
+  476  ll
+  477  rm -rf mongo_js/
+  478  ll
+  479  cd oscar/
+  480  ll
+  481  cd ..
+  482  ll
+  483  su
+  484  ll
+  485  cd oscar/
+  486  ll
+  487  cat ~/.ssh/id_rsa.pub 
+  488  ll
+  489  cd ..
+  490  ll
+  491  ifconfig
+  492  /sbin/ifconfig
+  493  clear
+  494  pwd
+  495  ls
+  496  cd ~
+  497  ls
+  498  pwd
+  499  ls /home/
+  500  ls
+  501  mkdir workspace
+  502  ls
+  503  cd workspace/
+  504  ls
+  505  git -v
+  506  git -V
+  507  git --version
+  508  mv /home/windows/oscar/oscar ~/.ssh/
+  509  mv /home/windows/oscar/config ~/.ssh/
+  510  vim ~/.ssh/config 
+  511  cd ~/.ssh
+  512  ls -l
+  513  chmod 600 config 
+  514  chmod 600 oscar 
+  515  ls -l
+  516  cd ~/workspace/
+  517  ping 163.com
+  518  ping 163.com
+  519  ping www.baidu.com
+  520  wget http://www.baidu.com
+  521  ls -l
+  522  cat index.html 
+  523  rm index.html 
+  524  clear
+  525  git clone -b new_index git@oscar:web.git
+  526  ll
+  527  cd web/
+  528  ll
+  529  pwd
+  530  su
+  531  cd ~
+  532  ls
+  533  cd workspace/
+  534  ls
+  535  rm *.conf
+  536  vi /etc/samba/smb.conf 
+  537  su
+  538  cd ..
+  539  ls
+  540  mysql
+  541  netstat -ntpl
+  542  exit
+  543  cd ~
+  544  ls
+  545  bunzip2 < db_expert_20140306.sql.bz2 | mysql -uroot -proot db_expert
+  546  bunzip2 < db_hhb_20140306.sql.bz2 | mysql -uroot -proot db_hhb
+  547  bunzip2 < db_zqmf_20140306.sql.bz2 | mysql -uroot -proot db_zqmf
+  548  bunzip2 < db_zqmf_20140306.sql.bz2 | mysql -uroot -proot db_zqmf
+  549  ll
+  550  ll
+  551  cd workspace/
+  552  ll
+  553  cd web/
+  554  ll
+  555  git status 
+  556  git status 
+  557  git log
+  558  git diff
+  559  git diff -p
+  560  -<div>
+  561  -               {if $smarty.get.f!=1}<a href="income.php?f=1" style="color:blue;">已发放</a>{else}已发放{/if}&nbsp;&nbsp;
+  562  -               {if $smarty.get.f!=0}<a href="income.php?f=0" style="color:blue;">未发放</a>{else}未发放{/if}
+  563  -               <a href="download_income.php" style="color:blue;">导出未发放数据</a>
+  564  -</div>
+  565  git diff -p
+  566  git diff -p
+  567  git diff
+  568  git status
+  569  pwd
+  570  git pull
+  571  git status
+  572  git checkout 
+  573  git status
+  574  git checkout 
+  575  git pull
+  576  ll
+  577  pwd
+  578  git checkout -- /home/oscar/workspace/web/op.huanhuba.net/hhb/incleft.php
+  579  git checkout -- /home/oscar/workspace/web/op.huanhuba.net/hhb/templates/income.tpl
+  580  git status
+  581  git status
+  582  git log
+  583  git status
+  584  git status
+  585  git log -p
+  586  git diff
+  587  git diff -p
+  588  git status
+  589  git status
+  590  ll
+  591  ls
+  592  history
+  593  history
+  594  alias 
+  595  ll
+  596  cd workspace/
+  597  ll
+  598  cd web/
+  599  git status
+  600  git log
+  601  git diff
+  602  git diff -p
+  603  git /c
+  604  git status
+  605  git status
+  606  git status
+  607  pwd
+  608  ll
+  609  git status 
+  610  cd op.huanhuba.net/hhb/
+  611  git status
+  612  git add inforbox.php inforboxdown.php
+  613  git status
+  614  git add templates/inforbox.tpl
+  615  git status
+  616  git commit -m "推荐市场报表统计"
+  617  git status
+  618  git add incleft.php
+  619  git commit -m "推荐市场报表统计2"
+  620  git status
+  621  git diff
+  622  git diff --cached 
+  623  git diff --cached -p
+  624  git diff --cached -p origin/new_index 
+  625  git remove -v
+  626  git remote -v
+  627  git diff --tree -p origin/new_index 
+  628  git diff--tree -p origin/new_index 
+  629  git diff-tree -p origin/new_index 
+  630  mongo
+  631  mongo 127.0.0.1:27017/hhb -ubackup -pqict2006
+  632  /usr/local/oscar/mongodb-linux-i686-2.4.9/bin/mongod --auth --dbpath=/usr/local/work/mongodb/data/ --logpath=/usr/local/work/mongodb/dblogs --fork
+  633  /usr/local/oscar/mongodb-linux-i686-2.4.9/bin/mongod --auth --dbpath=/usr/local/work/mongodb/data/ --logpath=/usr/local/work/mongodb/dblogs --fork
+  634  cd /home/oscar/workspace/web/
+  635  git status
+  636  git status
+  637  git log
+  638  git diff --name-status 
+  639  git diff --name-status HEAD~2 HEAD
+  640  git diff --name-status HEAD~3 HEAD
+  641  git diff --name-status HEAD~2 HEAD
+  642  git diff --name-status HEAD~2 HEAD --name-only 
+  643  git diff --name-status --name-only  HEAD~2 HEAD
+  644  git diff --name-only  HEAD~2 HEAD
+  645  git log --graph --oneline 
+  646  git log --graph --oneline --all
+  647  git diff --name-status HEAD~2 HEAD
+  648  tar -czvf oscar.tar.gz op.huanhuba.net/hhb/inforbox.php op.huanhuba.net/hhb/inforboxdown.php op.huanhuba.net/hhb/templates/inforbox.tpl
+  649  ls
+  650  scp -r oscar.tar.gz pele@192.168.8.158:~/
+  651  ll
+  652  cd ..
+  653  ll
+  654  mkdir web2
+  655  ll
+  656  cd web2/
+  657  ll
+  658  git clone -b new_dev git@oscar:web.git
+  659  ll
+  660  cd web/
+  661  ll
+  662  ls -la
+  663  git log
+  664  cd ..
+  665  ll
+  666  ll
+  667  cd ..
+  668  ll
+  669  rm -rf web
+  670  ssh root@192.168.8.38
+  671  clear
+  672  cd /usr/local/oscar/
+  673  ll
+  674  su rm -rf *tar.gz
+  675  su
+  676  cd
+  677  pwd
+  678  ll
+  679  cd workspace/
+  680  ll
+  681  cd web/
+  682  ll
+  683  git log
+  684  cd /usr/local/work/mongodb/
+  685  ll
+  686  cp start_service /home/oscar/workspace/mongodb_start_service
+  687  cd
+  688  cd workspace/
+  689  ll
+  690  cat mongodb_start_service 
+  691  mongo
+  692  /usr/local/oscar/mongodb-linux-i686-2.4.9/bin/mongod --auth --dbpath=/usr/local/work/mongodb/data/ --logpath=/usr/local/work/mongodb/dblogs --fork
+  693  /usr/local/oscar/mongodb-linux-i686-2.4.9/bin/mongod --auth --dbpath=/usr/local/work/mongodb/data/ --logpath=/usr/local/work/mongodb/dblogs --fork
+  694  su
+  695  mongo
+  696  su
+  697  mongo
+  698  su
+  699  cd
+  700  ll
+  701  cd workspace/
+  702  ll
+  703  pwd
+  704  mkdir mongodb
+  705  ll
+  706  cd mongodb/
+  707  ll
+  708  mkdir data
+  709  ll
+  710  touch dblogs
+  711  ll
+  712  pwd
+  713  ll
+  714  cd ..
+  715  ll
+  716  cat mongodb_start_service 
+  717  vi mongodb_start_service 
+  718  cat mongodb_start_service 
+  719  mv mongodb_start_service start_mongodb_service
+  720  ll
+  721  ll
+  722  cat start_mongodb_service 
+  723  chmod +x start_mongodb_service 
+  724  ./start_mongodb_service 
+  725  mongo
+  726  ll
+  727  cd mongodb/
+  728  ll
+  729  mongorestore -d hhb --directoryperdb hhb
+  730  ll
+  731  mongoexport
+  732  mongoimport -d hhb -c current_groups current_groups_backup 
+  733  mongo
+  734  ll
+  735  cd ..
+  736  ll
+  737  cd web
+  738  ll
+  739  ls -la
+  740  cd ..
+  741  ll
+  742  cd mongo_js/
+  743  ls -la
+  744  ll
+  745  cd data_update/
+  746  ll
+  747  cat sh.sh 
+  748  cd ..
+  749  ll
+  750  vi test.sh 
+  751  cat test.sh 
+  752  ll
+  753  cd data
+  754  cd data_update/
+  755  ll
+  756  cat sh.sh 
+  757  vi sh.sh 
+  758  cat sh.sh 
+  759  mongo
+  760  pwd
+  761  cd ..
+  762  ll
+  763  cat test.sh 
+  764  ll
+  765  ./test.sh 
+  766  git history
+  767  history > a.txt
+  768  ll a.txt
+  769  pwd
+  770  mongo
+  771  mongo
+  772  ll
+  773  cd ..
+  774  ll
+  775  cd mongodb/
+  776  ll
+  777  cd hhb
+  778  ll
+  779  cd ..
+  780  mongorestore -d hhb --directoryperdb hhb
+  781  mongo
+  782  ll
+  783  cd hhb
+  784  ll
+  785  cd ..
+  786  ll
+  787  mongorestore -d hhb --directoryperdb hhb
+  788  mongo
+  789  cd ..
+  790  ll
+  791  cd mongo_js/
+  792  ll
+  793  cd groups/
+  794  ll
+  795  mongo hhb score_rank1_half.js score_rank2_half.js 
+  796  cd ../team/
+  797  ll
+  798  mongo hhb num_team.js 
+  799  cd ../
+  800  ll
+  801  cd data_update/
+  802  ll
+  803  cd groups/
+  804  ll
+  805  mongo hhb score_rank1_half.js score_rank2_half.js 
+  806  cd ../team/
+  807  mongo hhb num_team.js 
+  808  l
+  809  mongo
+  810  ll
+  811  cd ..
+  812  cd ..
+  813  cd ..
+  814  ll
+  815  mongo hhb test.js
+  816  mongo hhb test.js
+  817  mongo hhb test.js
+  818  pwd
+  819  pwd
+  820  ssh -T oscar
+  821  git pull
+  822  cd ..
+  823  ll
+  824  git clone git@oscar:fb_library.git
+  825  git branch -a
+  826  cd fb_library/
+  827  git branch -a
+  828  cd ..
+  829  git clone -b dev git@oscar:fb_library.git
+  830  git branch -a
+  831  cd web/
+  832  git branch -a
+  833  cd ..
+  834  cd oscar
+  835  ll
+  836  git clone -b master git@oscar:web.git
+  837  ll
+  838  cd ..
+  839  ll
+  840  rm -rf oscar
+  841  ll
+  842  cd oscarhhb/
+  843  ll
+  844  git branch -a
+  845  cd mongo_js/
+  846  cd groups/
+  847  ll
+  848  mongo hhb score_rank3.js 
+  849  cd workspace/
+  850  ll
+  851  cd mongo_js/
+  852  ll
+  853  git clone git@github.com:qict777/oscarhhb.git
+  854  ll
+  855  cd oscarhhb/
+  856  ll
+  857  pwd
+  858  rm mongo_js/
+  859  rm -rf mongo_js/
+  860  ll
+  861  git status
+  862  git commit -m "delect the history document"
+  863  git commit -a -m "delect the history document"
+  864  git status
+  865  git push
+  866  git log
+  867  ll
+  868  cd ..
+  869  cd ~
+  870  ll
+  871  cd workspace/
+  872  ll
+  873  cd oscarhhb/
+  874  ll
+  875  ls -la
+  876  git status
+  877  git add .
+  878  git status
+  879  git status
+  880  git add mongo_js/sh.sh
+  881  git status
+  882  git rm mongo_js/test.sh
+  883  git status 
+  884  git commit -m "the lastest commit after updating"
+  885  git status 
+  886  git diff
+  887  git log
+  888  git push
+  889  git remote -v
+  890  git remote 
+  891  git remote -v
+  892  git branch
+  893  git branch -r
+  894  git branch -a
+  895  git remote show origin
+  896  git checkout 
+  897  git checkout HEAD
+  898  git branch -V
+  899  git branch -
+  900  git checkout help
+  901  git checkout -v
+  902  git checkout HEAD
+  903  git checkout HEAD^
+  904  git checkout HEAD^ 3
+  905  git checkout HEAD^1
+  906  git checkout HEAD^3
+  907  git checkout HEAD^2
+  908  git line
+  909  git --help 
+  910  cat .git/HEAD
+  911  cat .git/refs/heads/master 
+  912  git checkout 
+  913  ll
+  914  cd ..
+  915  ll
+  916  cd fb_library/
+  917  ll
+  918  cd ../web/
+  919  ll
+  920  git branch -a
+  921  cd ..
+  922  ll
+  923  cd fb_library/
+  924  git branch -a
+  925  cd ..
+  926  ll
+  927  rm -rf fb_library/
+  928  ll
+  929  cd web/
+  930  ll
+  931  history 
+  932  ll
+  933  git status
+  934  git diff
+  935  git diff --cached 
+  936  git log
+  937  git branch -a
+  938  git log -p
+  939  git pull
+  940  ll
+  941  cd ..
+  942  ll
+  943  cd oscarhhb/
+  944  ll
+  945  cd mongo_js/
+  946  ll
+  947  cd data_update/
+  948  ll
+  949  cd groups/
+  950  ll
+  951  mongo hhb score_rank
+  952  mongo hhb score_rank3.js 
+  953  more score_rank3.js 
+  954  cd ..
+  955  cd ..
+  956  ls -la
+  957  cd ..
+  958  ll
+  959  ls -la
+  960  git status
+  961  git log
+  962  git branch -v
+  963  git branch master 
+  964  git checkout master 
+  965  ll
+  966  cd mongo_js/
+  967  ll
+  968  cd data_update/
+  969  ll
+  970  cd groups/
+  971  ll
+  972  mongo hhb score_rank3.js 
+  973  more score_rank3.js 
+  974  ll
+  975  shutdown -h now
+  976  su
+  977  ll
+  978  cd workspace/
+  979  cd mongodb/
+  980  ll
+  981  cat start_mongodb_service 
+  982  /usr/local/oscar/mongodb-linux-i686-2.4.9/bin/mongod --auth --dbpath=/home/oscar/workspace/mongodb/data/ --logpath=/home/oscar/workspace/mongodb/dblogs --fork
+  983  mongo
+  984  ll
+  985  chmod +x start_mongodb_service 
+  986  ll start_mongodb_service 
+  987  ./start_mongodb_service 
+  988  mongo
+  989  ll
+  990  cd workspace/
+  991  ll
+  992  cd web/
+  993  ll
+  994  git log
+  995  git status
+  996  ll
+  997  clear
+  998  ll
+  999  git branch -a
+ 1000  cd
+ 1001  ll
+ 1002  cd workspace/
+ 1003  ll
+ 1004  cd web/
+ 1005  ll
+ 1006  git branch 
+ 1007  mongo
+ 1008  ll
+ 1009  cd ..
+ 1010  ll
+ 1011  cd oscarhhb/
+ 1012  ll
+ 1013  cd mongo_js/
+ 1014  ll
+ 1015  cd team/
+ 1016  ll
+ 1017  mongo 192.168.8.158:27800/hhb num_team.js 
+ 1018  cd ..
+ 1019  ll
+ 1020  cd ..
+ 1021  cd ..
+ 1022  cd web/
+ 1023  ll
+ 1024  git branch -a
+ 1025  git pull
+ 1026  git fetch 
+ 1027  git fetch new_dev origin/new_dev
+ 1028  git fetch new_dev new_dev
+ 1029  git diff --cached 
+ 1030  git diff --cached 
+ 1031  git status 
+ 1032  git checkout m.huanhuba.net/Application/Info/View/League/league.tpl
+ 1033  git status 
+ 1034  git status 
+ 1035  git status 
+ 1036  git log
+ 1037  git diff --cached 
+ 1038  git diff --cached 
+ 1039  git log
+ 1040  git status
+ 1041  git checkout static.huanhuba.net/css/info/index.css
+ 1042  git status
+ 1043  git status static.huanhuba.net/css/info/info.css
+ 1044  git status
+ 1045  git status
+ 1046  git branch analysis_oscar
+ 1047  git branch 
+ 1048  git checkout analysis_oscar 
+ 1049  git branch 
+ 1050  git branch 
+ 1051  git status
+ 1052  mongo
+ 1053  yum list mongo
+ 1054  yum list | grep mongo
+ 1055  rpm -qa | grep php
+ 1056  yum install php-pecl-mongo.i386
+ 1057  su
+ 1058  cd
+ 1059  ll
+ 1060  cd /usr/
+ 1061  nginx -s
+ 1062  nginx -s stop
+ 1063  su
+ 1064  cd
+ 1065  ll
+ 1066  cd workspace/
+ 1067  ll
+ 1068  cd web/
+ 1069  ll
+ 1070  ll
+ 1071  git branch -a
+ 1072  git status 
+ 1073  git status 
+ 1074  git status 
+ 1075  git status 
+ 1076  git log --decorate --graph 
+ 1077  cd ..
+ 1078  cd oscarhhb/
+ 1079  ll
+ 1080  git log --decorate --graph 
+ 1081  git log --decorate --graph --oneline 
+ 1082  cd
+ 1083  history > history.txt

@@ -1,0 +1,1000 @@
+    1  mongo 192.168.8.158:27800/hhb dx_and_yp_team.js
+    2  mongo 192.168.8.158:27800/hhb dx_and_yp_team.js
+    3  ll
+    4  mongo 192.168.8.158:27800/hhb update_beisai_team.js 
+    5  mongo 192.168.8.158:27800/hhb update_beisai_team.js 
+    6  ll
+    7  mongo 192.168.8.158:27800/hhb beisai_team.js 
+    8  mongo 192.168.8.158:27800/hhb update_beisai_team.js 
+    9  mongo 192.168.8.158:27800/hhb beisai_team.js 
+   10  ll
+   11  mongo 192.168.8.158:27800/hhb test.js
+   12  mongo 192.168.8.158:27800/hhb test.js
+   13  mongo 192.168.8.158:27800/hhb test.js
+   14  mongo 192.168.8.158:27800/hhb test.js
+   15  mongo 192.168.8.158:27800/hhb test.js
+   16  mongo 192.168.8.158:27800/hhb test.js
+   17  mongo 192.168.8.158:27800/hhb test.js
+   18  mongo 192.168.8.158:27800/hhb update_score_team.js 
+   19  mongo 192.168.8.158:27800/hhb update_score_team.js 
+   20  mongo 192.168.8.158:27800/hhb update_score_team.js 
+   21  mongo 192.168.8.158:27800/hhb update_score_team.js 
+   22  mongo 192.168.8.158:27800/hhb
+   23  mongo 192.168.8.158:27800/hhb
+   24  mongo hhb update_score_team.js 
+   25  mongo 127.0.0.1/hhb update_score_team.js 
+   26  mongo -uoscar -pqict2006 127.0.0.1/hhb update_score_team.js 
+   27  mongo -uwork -pqict2006 127.0.0.1/hhb update_score_team.js 
+   28  mongo -ubackup -pqict2006 127.0.0.1/hhb update_score_team.js 
+   29  mongo -ubackup -pqict2006 127.0.0.1/hhb update_score_team.js 
+   30  mongo -ubackup -pqict2006 127.0.0.1/hhb update_score_team.js 
+   31  hostname
+   32  hostname oscar
+   33  hostname
+   34  su
+   35  cat /etc/sysconfig/network
+   36  vi /etc/sysconfig/network
+   37  cat /etc/sysconfig/network
+   38  sysctl kernel.hostname
+   39  reboot
+   40  git -h
+   41  git --ve
+   42  git --version
+   43  git --version
+   44  ssh root@192.168.8.148
+   45  ssh root@192.168.8.148
+   46  ifconfig 
+   47  ssh root@192.168.8.38
+   48  ping 192.168.8.148
+   49  histroy
+   50  history
+   51  cd /usr/local/work/apache2/htdocs/
+   52  ll
+   53  cd mongodb/
+   54  ll
+   55  cd mongo_js/
+   56  ll
+   57  cd data_update/
+   58  ll
+   59  cd groups/
+   60  ll
+   61  gongo 192.168.8.158:27800/hhb score_rank2.js 
+   62  mongo 192.168.8.158:27800/hhb score_rank2.js 
+   63  mongo 192.168.8.158:27800/hhb score_rank1.js 
+   64  mongo 192.168.8.158:27800/hhb score_rank1.js 
+   65  mongo 192.168.8.158:27800/hhb score_rank3.js 
+   66  ll
+   67  mongo 192.168.8.158:27800/hhb score_rank1.js score_rank2.js score_rank3.js yp_and_dx_group.js 
+   68  cd ..
+   69  cd team/
+   70  ll
+   71  mongo 192.168.8.158:27800/hhb dx_and_yp_team.js 
+   72  mongo 192.168.8.158:27800/hhb dx_and_yp_team.js 
+   73  mongo 192.168.8.158:27800/hhb dx_and_yp_team.js 
+   74  mongo 192.168.8.158:27800/hhb dx_and_yp_team.js 
+   75  mongo 192.168.8.158:27800/hhb dx_and_yp_team.js 
+   76  mongo 192.168.8.158:27800/hhb dx_and_yp_team.js 
+   77  mongo 192.168.8.158:27800/hhb dx_and_yp_team.js 
+   78  mongo 192.168.8.158:27800/hhb dx_and_yp_team.js 
+   79  mongo 192.168.8.158:27800/hhb dx_and_yp_team.js 
+   80  mongo 192.168.8.158:27800/hhb dx_and_yp_team.js 
+   81  mongo 192.168.8.158:27800/hhb dx_and_yp_team.js 
+   82  mongo 192.168.8.158:27800/hhb dx_and_yp_team.js 
+   83  mongo 192.168.8.158:27800/hhb dx_and_yp_team.js 
+   84  mongo 192.168.8.158:27800/hhb dx_and_yp_team.js 
+   85  cd ../groups/
+   86  mongo 192.168.8.158:27800/hhb yp_and_dx_group.js 
+   87  cd ../team/
+   88  mongo 192.168.8.158:27800/hhb dx_and_yp_team.js 
+   89  mongo 192.168.8.158:27800/hhb dx_and_yp_team.js 
+   90  mongo 192.168.8.158:27800/hhb dx_and_yp_team.js 
+   91  mongo 192.168.8.158:27800/hhb dx_and_yp_team.js 
+   92  mongo 192.168.8.158:27800/hhb dx_and_yp_team.js 
+   93  pwd
+   94  oscar
+   95  source /etc/profile
+   96  oscar
+   97  alisa
+   98  alias
+   99  source /etc/profile
+  100  oscar
+  101  source /etc/bashrc 
+  102  oscar
+  103  alias
+  104  ll
+  105  mv tmux-1.9a.tar.gz /usr/local/oscar/
+  106  ll
+  107  cd /usr/local/oscar/
+  108  ll
+  109  ll tmux-1.9a.tar.gz 
+  110  tar zxvf tmux-1.9a.tar.gz 
+  111  cd tmux-1.9a
+  112  ll
+  113  ./configure 
+  114  make
+  115  make install
+  116  cd ..
+  117  ll tmu*
+  118  ll
+  119  rm -rf tmux-1.9a/
+  120  rm -rf tmux-1.9a.tar.gz 
+  121  rm -rf tmu
+  122  ll
+  123  oscar
+  124  ll
+  125  rm -rf tmux-1.9a.tar.gz 
+  126  ll
+  127  mv tmux-1.6.tar.gz /usr/local/oscar/
+  128  ll
+  129  ll /usr/local/oscar/
+  130  cd /usr/local/oscar/
+  131  tar zxvf tmux-1.6.tar.gz 
+  132  cd tmux-1.6
+  133  ./configure 
+  134  make
+  135  make install
+  136  tmux
+  137  mongo
+  138  cd
+  139  mongo
+  140  cd /usr/local/work/mongodb/
+  141  ll
+  142  cd start_service 
+  143  tail start_service 
+  144  /usr/local/oscar/mongodb-linux-i686-2.4.9/bin/mongod --auth --dbpath=/usr/local/work/mongodb/data/ --logpath=/usr/local/work/mongodb/dblogs --fork
+  145  mongo
+  146  mongo 192.168.8.158:27800/hhb
+  147  mongo 192.168.8.49:27017/hhb
+  148  mongo
+  149  oscar
+  150  cd mongodb/
+  151  cd mongo_js/
+  152  cd data_update
+  153  cd team
+  154  mongo -ubackup -pqict2006 127.0.0.1/hhb update_score_team.js
+  155  mongo -ubackup -pqict2006 127.0.0.1/hhb update_score_team.js
+  156  tmux ls
+  157  ?
+  158  tmux ?
+  159  tmux attach-session -t 0
+  160  hostname
+  161  /usr/local/oscar/mongodb-linux-i686-2.4.9/bin/mongod --auth --dbpath=/usr/local/work/mongodb/data/ --logpath=/usr/local/work/mongodb/dblogs --fork
+  162  exit
+  163  /usr/local/work/apache2/htdocs/mongodb/mongo_js/data_update/mongo.sh 
+  164  /usr/local/work/apache2/htdocs/mongodb/mongo_js/data_update/mongo.sh 
+  165  /usr/local/work/apache2/htdocs/mongodb/mongo_js/data_update/mongo.sh 
+  166  cd
+  167  /usr/local/work/apache2/htdocs/mongodb/mongo_js/data_update/mongo.sh 
+  168  cd /usr/local/work/apache2/htdocs/mongodb/mongo_js/data_update/
+  169  cd /usr/local/work/apache2/htdocs/mongodb/mongo_js/data_update/
+  170  /usr/local/work/apache2/htdocs/mongodb/mongo_js/data_update/mongo.sh 
+  171  /usr/local/work/apache2/htdocs/mongodb/mongo_js/data_update/mongo.sh 
+  172  cd
+  173  /usr/local/work/apache2/htdocs/mongodb/mongo_js/data_update/mongo.sh 
+  174  /usr/local/work/apache2/htdocs/mongodb/mongo_js/data_update/mongo.sh 
+  175  /usr/local/work/apache2/htdocs/mongodb/mongo_js/data_update/mongo.sh 
+  176  /usr/local/work/apache2/htdocs/mongodb/mongo_js/data_update/mongo.sh 
+  177  cd /usr/local/work/apache2/htdocs/mongodb/mongo_js/data_update/
+  178  ll
+  179  vi mongo.sh 
+  180  rm -rf mongo.sh 
+  181  ll
+  182  vi mongo.sh
+  183  cat mongo.sh
+  184  ll
+  185  vi mongo.sh
+  186  /usr/local/work/apache2/htdocs/mongodb/mongo_js/data_update/mongo.sh 
+  187  chmod +x mongo.sh 
+  188  /usr/local/work/apache2/htdocs/mongodb/mongo_js/data_update/mongo.sh 
+  189  vi mongo.sh
+  190  /usr/local/work/apache2/htdocs/mongodb/mongo_js/data_update/mongo.sh 
+  191  ll
+  192  cat mongo.sh 
+  193  vi mongo.sh
+  194  mongo.sh
+  195  ./mongo.sh 
+  196  cat mongo.sh 
+  197  vi mongo.sh
+  198  ./mongo.sh 
+  199  cat mongo.sh 
+  200  ./mongo.sh 
+  201  vi mongo.sh
+  202  ./mongo.sh 
+  203  vi mongo.sh
+  204  ./mongo.sh 
+  205  vi mongo.sh
+  206  ./mongo.sh 
+  207  cat mongo.sh 
+  208  ./mongo.sh 
+  209  vi mongo.sh
+  210  ./mongo.sh 
+  211  vi mongo.sh
+  212  ./mongo.sh 
+  213  ll
+  214  vi mongo.sh
+  215  ./mongo.sh 
+  216  ll
+  217  vi mongo.sh
+  218  ./mongo.sh 
+  219  vi mongo.sh 
+  220  ./mongo.sh 
+  221  ./mongo.sh 
+  222  vi mongo.sh 
+  223  ./mongo.sh 
+  224  ll
+  225  cat mongo.sh 
+  226  cd /
+  227  tree /usr/local/work/apache2/htdocs/mongodb/mongo_js/data_update/
+  228  rpm -qa crontabs
+  229  service crond status
+  230  services crond status
+  231  service crond status
+  232  service mysqld status
+  233  /sbin/service crond status
+  234  cd
+  235  ll
+  236  cd /usr/local/
+  237  ll
+  238  cd oscar/
+  239  cd ..
+  240  cd hhb/
+  241  ll
+  242  cd ..
+  243  rm -rf hhb/
+  244  ll
+  245  cd oscar/
+  246  ll
+  247  cd ..
+  248  cd work/
+  249  ll
+  250  vi /etc/samba/smb.conf 
+  251  service smb restart
+  252  service smb stop
+  253  service smb start
+  254  cd /home/oscar
+  255  ls -al
+  256  cd hhb_git/
+  257  ls -al
+  258  cd ..
+  259  rm -rf hhb_git/
+  260  ll
+  261  ls -al
+  262  cd .ssh/
+  263  ll
+  264  cd ..
+  265  rm -rf .ssh/
+  266  ll
+  267  ls -al
+  268  cd home
+  269  cd /home
+  270  ll
+  271  ls -al
+  272  cd /
+  273  ls -al
+  274  cd /home
+  275  ls -al
+  276  mkdir windows
+  277  ll
+  278  cd window
+  279  cd windows/
+  280  pwd
+  281  ls -al
+  282  vi /etc/samba/smb.conf 
+  283  service smb restart
+  284  service smb restart
+  285  vi /etc/samba/smb.conf 
+  286  cd ..
+  287  ll
+  288  chown oscar windows/
+  289  ll
+  290  cd windows/
+  291  ll
+  292  cd mongo_js/
+  293  ll
+  294  cd data_update/
+  295  ll
+  296  cd team/
+  297  ll
+  298  cd ../..ex
+  299  cd ../..
+  300  ll
+  301  cd ..
+  302  ll
+  303  su - oscar
+  304  exit
+  305  pwd
+  306  ll
+  307  ls -la
+  308  cd ..
+  309  ll
+  310  cp mongo_js/ /home/windows/gitwork/
+  311  cp -m mongo_js/ /home/windows/gitwork/
+  312  cp --help
+  313  cp -R mongo_js/ /home/windows/gitwork/
+  314  cd /home/windows/gitwork/
+  315  ll
+  316  pwd
+  317  ll
+  318  ll -al
+  319  ls -al
+  320  git status
+  321  cd mongo_js/
+  322  ll
+  323  cd data_update/
+  324  cd team/
+  325  ll
+  326  cd ../..
+  327  ll
+  328  cd ..
+  329  pwd
+  330  ll
+  331  git add .
+  332  git commit -m "mongo update data commit"
+  333  git status
+  334  git log
+  335  git diff
+  336  git push
+  337  ll
+  338  pwd
+  339  cd ..
+  340  exit
+  341  git remote add origin https://github.com/qict777/hhb.git
+  342  git push -u origin master
+  343  history
+  344  exit
+  345  ll
+  346  rm -rf gitwork/
+  347  ll
+  348  exit
+  349  sdfsd
+  350  sdf
+  351  ll
+  352  cd ..
+  353  ll
+  354  cd ..
+  355  ll
+  356  ll
+  357  cd ..
+  358  ll
+  359  cd oscar/
+  360  ll
+  361  cd workspace/
+  362  ll
+  363  pwd
+  364  vi /etc/samba/smb.conf 
+  365  service smb restart
+  366  ifconfig
+  367  service smb status
+  368  ll
+  369  pwd
+  370  cd /home
+  371  ll
+  372  cd windows/
+  373  ll
+  374  cd oscar/
+  375  ll
+  376  cd /
+  377  ll
+  378  cd home/
+  379  ll
+  380  pwd
+  381  cd oscar
+  382  ll
+  383  cd workspace/
+  384  ll
+  385  vi /etc/samba/smb.conf 
+  386  rpm -ivh http://dl.iuscommunity.org/pub/ius/stable/CentOS/5/i386/epel-release-5-4.noarch.rpm
+  387  rpm -ivh http://dl.iuscommunity.org/pub/ius/stable/CentOS/5/i386/ius-release-1.0-11.ius.centos5.noarch.rpm
+  388  yun installed | grep mysql
+  389  yum installed | grep mysql
+  390  yum installed
+  391  yum search | grep mysql
+  392  yum search mysql
+  393  yum list
+  394  yum list | grep mysql
+  395  rpm -qa
+  396  rpm -qa | grep mysql
+  397  rpm -qa mysql
+  398  mysql
+  399  yum install memcached
+  400  mysqld -V
+  401  mysql
+  402  php -V
+  403  php -v
+  404  which php
+  405  whereis php
+  406  /usr/bin/php -v
+  407  /usr/bin/php -V
+  408  /usr/bin/php -V
+  409  yum install php53
+  410  yum install php53u
+  411  yum install php53u-fpm php53u-pecl-memcache php53u-mbstring php53u-mysql php53u-mcrypt php53u-gd
+  412  php -v
+  413  cler
+  414  clear
+  415  /etc/init.d/httpd stop
+  416  /etc/init.d/httpd stop
+  417  netstat -ntpl
+  418  service httpd stop
+  419  kill -9 2986
+  420  netstat -ntpl
+  421  kill -9 3065
+  422  netstat -ntpl
+  423  kill -9 3919
+  424  netstat -ntpl
+  425  kill -9 2207
+  426  kill -9 4211
+  427  netstat -ntpl
+  428  kill -9 80
+  429  kill -9 3066
+  430  netstat -ntpl
+  431  chkconfig --level | grep httpd
+  432  chkconfig --list | grep httpd
+  433  chkconfig --level 345 httpd off
+  434  reboot
+  435  vi /etc/samba/smb.conf 
+  436  vi /etc/samba/smb.conf 
+  437  service smb restart
+  438  exit
+  439  yum install 
+  440  yum install php53u-pecl-memcache
+  441  netstat -ntpl
+  442  /etc/init.d/memcached start
+  443  chkconfig --list | grep memcached
+  444  chkconfig --level 2345 memcached on
+  445  chkconfig --list | grep memcached
+  446  netstat -ntpl
+  447  top -d 1
+  448  top -d 1
+  449  free -m
+  450  tailf /var/log/nginx/error.log 
+  451  tailf /var/log/nginx/error.log 
+  452  vim /etc/nginx/conf.d/m.conf 
+  453  vim /etc/nginx/conf.d/hhb.conf 
+  454  cd /etc/nginx/
+  455  ls
+  456  cd conf.d/
+  457  ls
+  458  vim hhb.conf 
+  459  /etc/init.d/nginx restart
+  460  vim /etc/php.ini 
+  461  /etc/init.d/php-fpm restart
+  462  tailf /var/log/nginx/error.log 
+  463  history 
+  464  top -d 1
+  465  history 
+  466  free -m
+  467  free -m
+  468  top -d 1
+  469  top -d 1
+  470  cd /home/oscar/
+  471  ll
+  472  cd workspace/
+  473  ll
+  474  cd mongo_js/
+  475  ll
+  476  more sh.sh 
+  477  echo 'start the mongodb insert process'
+  478  cd `dirname $0`
+  479  cd groups/
+  480  mongo hhb score_rank1.js score_rank2.js score_rank3.js yp.js dx.js
+  481  cd ../match/
+  482  mongo hhb yp_res_match.js
+  483  cd ../team/
+  484  mongo hhb beisai_team.js score_team.js dx_team.js yp_team.js num_team.js
+  485  echo 'the insert is over'
+  486  top 
+  487  netstat -ntpl
+  488  netstat -ntpl
+  489  netstat -ntpl
+  490  vim /etc/yum.repos.d/nginx.repo
+  491  yum install nginx
+  492  chkconfig --level 2345 nginx on
+  493  chkconfig --list | grep nginx
+  494  /etc/init.d/nginx start
+  495  netstat -ntpl
+  496  /etc/init.d/php-fpm start
+  497  netstat -ntpl
+  498  chkconfig --level 2345 php-fpm on
+  499  cd /etc/nginx/
+  500  ls
+  501  cd conf.d/
+  502  ls
+  503  vim default.conf 
+  504  cp /home/oscar/workspace/*.conf ./
+  505  ls -l
+  506  vim hhb.conf 
+  507  vim m.conf 
+  508  /etc/init.d/php-fpm restart
+  509  /etc/init.d/nginx restart
+  510  vim hhb.conf 
+  511  cp /home/oscar/workspace/include_php.conf ../
+  512  cd ..
+  513  ls
+  514  /etc/init.d/nginx restart
+  515  vim /etc/php-fpm.conf 
+  516  vim /etc/php-fpm.d/www.conf 
+  517  /etc/init.d/php-fpm restart
+  518  vim /etc/nginx/nginx.conf 
+  519  vim /etc/nginx/nginx.conf 
+  520  /etc/init.d/nginx restart
+  521  su oscar
+  522  vim /etc/my.cnf 
+  523  /etc/init.d/
+  524  vim /etc/mysql.cnf 
+  525  vim /etc/my.cnf 
+  526  /etc/init.d/mysql restart
+  527  vim /etc/my.cnf 
+  528  vim /etc/mysql.cnf 
+  529  yum list | grep mysql
+  530  yum install mysql55-mysql-server
+  531  which mysqld
+  532  which mysql
+  533  mysql -V
+  534  mysql
+  535  /etc/init.d/mysql55-mysqld start
+  536  mysqladmin -u root password 'root'
+  537  hostname
+  538  mysqladmin -u root -h oscar838.localdomain password 'root'
+  539  mysqladmin -u root -h "oscar838.localdomain" password 'root'
+  540  vim /etc/host.conf 
+  541  clear
+  542  mysql
+  543  /usr/bin/mysql_secure_installation
+  544  mysql -uroot -proot
+  545  su oscar
+  546  cd /etc/rc.d/
+  547  ll
+  548  tail rc.sysinit 
+  549  service httpd stop
+  550  service httpd start
+  551  service httpd restart
+  552  hostname
+  553  vi /etc/host
+  554  vi /etc/hosts
+  555  /usr/local/work/apache2/bin/apachectl stop
+  556  vim rc.sysinit 
+  557  chkconfig --list | grep smb
+  558  chkconfig --level 2345 smb on
+  559  chkconfig --list | grep smb
+  560  chkconfig --level 2345 mysql on
+  561  chkconfig --list | grep mysql
+  562  fg
+  563  /etc/init.d/httpd stop
+  564  /etc/init.d/httpd start
+  565  /etc/init.d/httpd stop
+  566  cd /usr/local/work/mongodb/
+  567  ll
+  568  cd data/
+  569  ll
+  570  rm -rf mongod.lock 
+  571  ll
+  572  /usr/local/oscar/mongodb-linux-i686-2.4.9/bin/mongod --auth --dbpath=/usr/local/work/mongodb/data/ --logpath=/usr/local/work/mongodb/dblogs --fork
+  573  mongo
+  574  ll
+  575  cd ..
+  576  ll
+  577  mongo
+  578  mongo
+  579  mongo
+  580  ll
+  581  rm -rf dblogs.*
+  582  ll
+  583  cd data/
+  584  ll
+  585  rm -rf *
+  586  ll
+  587  cd ..
+  588  ll
+  589  rm -rf dblogs
+  590  ll
+  591  touch dblogs
+  592  ll
+  593  /usr/local/oscar/mongodb-linux-i686-2.4.9/bin/mongod --auth --dbpath=/usr/local/work/mongodb/data/ --logpath=/usr/local/work/mongodb/dblogs --fork
+  594  mongo
+  595  cd /home/oscar/hhb/
+  596  ll
+  597  cd ..
+  598  mongorestore -d hhb --directoryperdb hhb
+  599  mongo
+  600  ll
+  601  mongoimport -d hhb -c current_groups backlog 
+  602  mongo
+  603  oscar
+  604  ll
+  605  cd /home/windows/oscar/mongo_js/
+  606  ll
+  607  cd ..
+  608  cd ..
+  609  pwd
+  610  cd ..
+  611  ll
+  612  cd oscar/
+  613  ll
+  614  cd workspace/
+  615  ll
+  616  cd mongo_js/
+  617  ll
+  618  sh.sh
+  619  ./sh.sh
+  620  chmod +x sh.sh 
+  621  ./sh.sh
+  622  vi sh.sh 
+  623  ./sh.sh
+  624  cat sh.sh 
+  625  vi test.sh
+  626  ./test.sh
+  627  chmod +x test.sh 
+  628  ./test.sh
+  629  vi test.sh
+  630  ./test.sh
+  631  cd /home/oscar/workspace/
+  632  ll
+  633  cd web2
+  634  ll
+  635  cd web/
+  636  ll
+  637  ll
+  638  ll
+  639  ls -la
+  640  ll
+  641  pwd
+  642  cd ..
+  643  ll
+  644  cd ..
+  645  lll
+  646  ll
+  647  rm -rf web
+  648  ll
+  649  cd web2/
+  650  ll
+  651  pwd
+  652  mv web /home/oscar/workspace/
+  653  ll
+  654  cd ..
+  655  ll
+  656  cd web
+  657  ll
+  658  cd ..
+  659  ll
+  660  cd web2
+  661  ll
+  662  cd ..
+  663  rm -rf web2
+  664  ll
+  665  cd web/
+  666  ll
+  667  git status
+  668  git diff
+  669  git diff --cache
+  670  git log
+  671  git diff--cache
+  672  git log--cache
+  673  git log--cache
+  674  shutdown -h now
+  675  exit
+  676  rm -rf *.tar.gz
+  677  rm -rf *.tgz
+  678  cd lamp/
+  679  ll
+  680  rm -rf *.tgz
+  681  rm -rf *.tar.gz
+  682  rm -rf vmware-tools-distrib/
+  683  oscar
+  684  ll
+  685  cd mongodb/
+  686  ll
+  687  cd mongo_js/
+  688  ll
+  689  cd
+  690  exit
+  691  /usr/local/oscar/mongodb-linux-i686-2.4.9/bin/mongod --auth --dbpath=/usr/local/work/mongodb/data/ --logpath=/usr/local/work/mongodb/dblogs --fork
+  692  exit
+  693  ll
+  694  cd ..
+  695  ll
+  696  cd ..
+  697  ll
+  698  rm -rf windows/
+  699  ll
+  700  cd oscar/
+  701  oscar
+  702  ll
+  703  cd mongodb/
+  704  ll
+  705  cd ..
+  706  rm -rf *
+  707  ll
+  708  oscar
+  709  ll
+  710  exit
+  711  mongo
+  712  cd /usr/local/work/
+  713  ll
+  714  rm -rf mongodb/
+  715  ll
+  716  cd ../oscar/
+  717  ll
+  718  rm -rf mongodb-linux-x86_64-2.4.9/
+  719  ll
+  720  cd
+  721  ll
+  722  exit
+  723  shutdown -h now
+  724  top
+  725  ll
+  726  cd /home/oscar/workspace/
+  727  ll
+  728  cd mongo_js/
+  729  ll
+  730  git status
+  731  ls -la
+  732  ll
+  733  cd ..
+  734  ll
+  735  mkdir github
+  736  cd github/
+  737  ll
+  738  git clone -d git@github.com:qict777/oscarhhb.git
+  739  git clone -b git@github.com:qict777/oscarhhb.git
+  740  history
+  741  git clone git@github.com:qict777/oscarhhb.git
+  742  ssh -T git@github.com
+  743  ll
+  744  cd ..
+  745  ll
+  746  rm -rm test.js 
+  747  rm -rf test.js 
+  748  ll
+  749  cd ..
+  750  ll
+  751  cd ..
+  752  ll
+  753  cd ..
+  754  ll
+  755  cd /home/oscar/workspace/
+  756  ll
+  757  cd mongodb/
+  758  ll
+  759  cd ..
+  760  cd mongodb/
+  761  ll
+  762  rm -rf current_groups_backup 
+  763  ll
+  764  cd ..
+  765  ll
+  766  cd mongo_js/
+  767  ll
+  768  ls -la
+  769  cd ..
+  770  ll
+  771  cd web/
+  772  ll
+  773  cd ..
+  774  ll
+  775  cd mongo_js/
+  776  ll
+  777  cat ~/.ssh/
+  778  ll ~/.ssh/
+  779  ll
+  780  ll ~/.ssh/
+  781  ll -la ~/.ssh/
+  782  ll -la /home/oscar/.ssh/
+  783  cd -la /home/oscar/.ssh/
+  784  cd /home/oscar/.ssh/
+  785  ll
+  786  cat config 
+  787  tail config 
+  788  vi config 
+  789  ll
+  790  vi id_rsa.pub 
+  791  cd ~/
+  792  ll
+  793  cd /home/
+  794  ll
+  795  cd oscar/
+  796  ll
+  797  su oscar
+  798  cat /home/oscar/workspace/mongo_js/a.txt 
+  799  ll
+  800  cd /home/
+  801  cd oscar/
+  802  ll
+  803  cd workspace/
+  804  ll
+  805  cd web/
+  806  ll
+  807  cd ..
+  808  ll
+  809  git clone git@oscar:fb_library.git
+  810  git clone git@oscar:fb_library.git
+  811  git clone git@oscar:fb_library.git
+  812  ll
+  813  mongo
+  814  pwd
+  815  cd web/
+  816  git branch -a
+  817  git branch -r
+  818  git branch -a
+  819  git pull
+  820  ssh -T oscar
+  821  su oscar
+  822  pwd
+  823  ll
+  824  cd /etc/
+  825  ll
+  826  ll
+  827  cd rc.d/
+  828  ll
+  829  tail rc.sysinit 
+  830  chkconfig --list
+  831  chkconfig --list mysql
+  832  chkconfig --list mysql*
+  833  chkconfig --list mys
+  834  chkconfig --list mysqld
+  835  chkconfig --list mysql
+  836  service smb status
+  837  exit
+  838  mysql
+  839  chkconfig --list
+  840  chkconfig --list mysql
+  841  chkconfig --level 2345 mysql off
+  842  chkconfig --list mysql
+  843  cd /etc/init.d/
+  844  ll
+  845  ll mysql*
+  846  pwd
+  847  cp /home/oscar/workspace/mongodb/start_mongodb_service /etc/init.d/
+  848  ll start_mongodb_service 
+  849  chmod +x start_mongodb_service 
+  850  chkconfig --add start_mongodb_service 
+  851  vi start_mongodb_service 
+  852  cat start_mongodb_service 
+  853  vi start_mongodb_service 
+  854  cat start_mongodb_service 
+  855  chkconfig --add start_mongodb_service 
+  856  chkconfig --list start_mongodb_service 
+  857  chkconfig --list |grep start_mongodb_service 
+  858  chkconfig --list |grep mysql
+  859  chkconfig --level 2345 mysql55-mysqld on
+  860  chkconfig --list |grep mysql
+  861  reboot
+  862  mysql
+  863  mysql -uroot -pqict2006
+  864  mysql -uoscar -pqict2006
+  865  mysql -uoscar -poscar
+  866  mysql -uroot -p
+  867  mysql -udev -pqict2006
+  868  service mysqld status
+  869  service mysql status
+  870  chkconfig --list | grep mysql
+  871  service mysql55-mysqld status
+  872  netstat -ntl
+  873  netstat -ntlp
+  874  mysql -udev -pdev5312
+  875  mysql -udev -pdev5718
+  876  hostname
+  877  mysql -udev -pdev5718
+  878  mysql -uroot
+  879  cat /etc/host
+  880  cat /etc/hosts
+  881  vi /etc/hosts
+  882  cat /etc/hosts
+  883  source /etc/hosts
+  884  mysql
+  885  mysql -udev -pdev5718
+  886  mysql -uroot -p
+  887  mysql -uroot -pqict2006
+  888  mysql -uroot -p2006
+  889  mysql -uroot -p123456
+  890  mysql -uroot -p2006
+  891  reboot
+  892  yum install php-pecl-mongo.i386
+  893  yum install php53u-pecl-mongo.i386
+  894  ps -ef | grep nginx
+  895  cd /usr/
+  896  ll
+  897  cd bin/
+  898  ll
+  899  cd ngettext 
+  900  exit
+  901  pwd
+  902  git pull
+  903  git fetch
+  904  ll ~/.ssh/
+  905  cat ~/.ssh/known_hosts 
+  906  git status
+  907  git branch -a
+  908  git checkout analysis_oscar
+  909  git status
+  910  git branch -a
+  911  git checkout -a
+  912  git checkout new_dev
+  913  exit
+  914  nginx -s stop
+  915  ps -ef | grep nginx
+  916  nginx -s start
+  917  nginx -s reopen
+  918  nginx -s reload
+  919  start nginx
+  920  service nginx stop
+  921  service nginx start
+  922  pecl install mongo
+  923  cd /home/server/php/bin/
+  924  vi /home/server/php/lib/php.ini
+  925  vi /etc/php.ini
+  926  vi /etc/php.ini
+  927  service nginx stop
+  928  service nginx start
+  929  find / -name "mongo.so"
+  930  vi /etc/php.ini
+  931  service nginx stop
+  932  service nginx start
+  933  find / -name "phpize"
+  934  cd /usr/bin
+  935  ll
+  936  ll phpize 
+  937  cd
+  938  ll
+  939  wget http://pecl.php.net/get/mongo-1.2.0.tgz
+  940  wget http://pecl.php.net/get/mongo-1.4.5.tgz
+  941  ll
+  942  tar mongo-1.4.5.tgz 
+  943  tar zxvf mongo-1.4.5.tgz 
+  944  cd mongo-1.4.5
+  945  ll
+  946  /usr/bin/phpize 
+  947  /usr/bin/phpize 
+  948  find / -name "phpize"
+  949  phpize
+  950  /usr/bin/phpize 
+  951  vi /etc/php.ini 
+  952  vi /etc/php.ini 
+  953  /usr/bin/phpize 
+  954  whereis php
+  955  php -V
+  956  php -v
+  957  which php
+  958  /usr/bin/php -v
+  959  ls
+  960  cd ..
+  961  pecl install mongo
+  962  cd /etc/php.d/
+  963  ls
+  964  vim mongo.ini 
+  965  php -m 
+  966  php -m | grep mongo
+  967  cd ..
+  968  ls
+  969  cd php
+  970  ls
+  971  vim php-fpm.d/
+  972  cd php-fpm.d/
+  973  ls
+  974  cd ..
+  975  cd php.d/
+  976  ls
+  977  pecl --help
+  978  ls /usr/lib/php/modules/
+  979  pecl --help
+  980  pecl uninstall mongo
+  981  pecl install mongo
+  982  ls /usr/lib/php/modules/
+  983  rm mongo.ini 
+  984  rm /usr/lib/php/modules/mongo.so 
+  985  pecl install mongo
+  986  cd /usr/lib/php/build
+  987  mkdir /usr/lib/php/build
+  988  pecl install mongo
+  989  yum install php-devel
+  990  yum install php53u-devel
+  991  pecl install mongo
+  992  ls
+  993  cp gd.ini mongo.ini
+  994  vim mongo.ini 
+  995  /etc/init.d/php-fpm restart
+  996  netstat -ntpl
+  997  cd
+  998  ll
+  999  exit
+ 1000  history > history2.txt
