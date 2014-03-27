@@ -30,7 +30,7 @@ if(seasons){
 
       m_ids = [];
 
-      a = db.groups.findOne({"_id": gs[j],"rounds": {"$exists": true},"sub_type": 1}, {"_id": 0,"rounds.matches": 1});
+      a = db.groups.findOne({"_id": gs[j],"rounds": {"$exists": true}}, {"_id": 0,"rounds.matches": 1});
 
       if (!a) {
         continue;
