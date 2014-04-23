@@ -1,0 +1,1000 @@
+git log
+git diff
+git push
+ll
+pwd
+cd ..
+exit
+git remote add origin https://github.com/qict777/hhb.git
+git push -u origin master
+history
+exit
+ll
+rm -rf gitwork/
+ll
+exit
+sdfsd
+sdf
+ll
+cd ..
+ll
+cd ..
+ll
+ll
+cd ..
+ll
+cd oscar/
+ll
+cd workspace/
+ll
+pwd
+vi /etc/samba/smb.conf 
+service smb restart
+ifconfig
+service smb status
+ll
+pwd
+cd /home
+ll
+cd windows/
+ll
+cd oscar/
+ll
+cd /
+ll
+cd home/
+ll
+pwd
+cd oscar
+ll
+cd workspace/
+ll
+vi /etc/samba/smb.conf 
+rpm -ivh http://dl.iuscommunity.org/pub/ius/stable/CentOS/5/i386/epel-release-5-4.noarch.rpm
+rpm -ivh http://dl.iuscommunity.org/pub/ius/stable/CentOS/5/i386/ius-release-1.0-11.ius.centos5.noarch.rpm
+yun installed | grep mysql
+yum installed | grep mysql
+yum installed
+yum search | grep mysql
+yum search mysql
+yum list
+yum list | grep mysql
+rpm -qa
+rpm -qa | grep mysql
+rpm -qa mysql
+mysql
+yum install memcached
+mysqld -V
+mysql
+php -V
+php -v
+which php
+whereis php
+/usr/bin/php -v
+/usr/bin/php -V
+/usr/bin/php -V
+yum install php53
+yum install php53u
+yum install php53u-fpm php53u-pecl-memcache php53u-mbstring php53u-mysql php53u-mcrypt php53u-gd
+php -v
+cler
+clear
+/etc/init.d/httpd stop
+/etc/init.d/httpd stop
+netstat -ntpl
+service httpd stop
+kill -9 2986
+netstat -ntpl
+kill -9 3065
+netstat -ntpl
+kill -9 3919
+netstat -ntpl
+kill -9 2207
+kill -9 4211
+netstat -ntpl
+kill -9 80
+kill -9 3066
+netstat -ntpl
+chkconfig --level | grep httpd
+chkconfig --list | grep httpd
+chkconfig --level 345 httpd off
+reboot
+vi /etc/samba/smb.conf 
+vi /etc/samba/smb.conf 
+service smb restart
+exit
+yum install 
+yum install php53u-pecl-memcache
+netstat -ntpl
+/etc/init.d/memcached start
+chkconfig --list | grep memcached
+chkconfig --level 2345 memcached on
+chkconfig --list | grep memcached
+netstat -ntpl
+top -d 1
+top -d 1
+free -m
+tailf /var/log/nginx/error.log 
+tailf /var/log/nginx/error.log 
+vim /etc/nginx/conf.d/m.conf 
+vim /etc/nginx/conf.d/hhb.conf 
+cd /etc/nginx/
+ls
+cd conf.d/
+ls
+vim hhb.conf 
+/etc/init.d/nginx restart
+vim /etc/php.ini 
+/etc/init.d/php-fpm restart
+tailf /var/log/nginx/error.log 
+history 
+top -d 1
+history 
+free -m
+free -m
+top -d 1
+top -d 1
+cd /home/oscar/
+ll
+cd workspace/
+ll
+cd mongo_js/
+ll
+more sh.sh 
+echo 'start the mongodb insert process'
+cd `dirname $0`
+cd groups/
+mongo hhb score_rank1.js score_rank2.js score_rank3.js yp.js dx.js
+cd ../match/
+mongo hhb yp_res_match.js
+cd ../team/
+mongo hhb beisai_team.js score_team.js dx_team.js yp_team.js num_team.js
+echo 'the insert is over'
+top 
+netstat -ntpl
+netstat -ntpl
+netstat -ntpl
+vim /etc/yum.repos.d/nginx.repo
+yum install nginx
+chkconfig --level 2345 nginx on
+chkconfig --list | grep nginx
+/etc/init.d/nginx start
+netstat -ntpl
+/etc/init.d/php-fpm start
+netstat -ntpl
+chkconfig --level 2345 php-fpm on
+cd /etc/nginx/
+ls
+cd conf.d/
+ls
+vim default.conf 
+cp /home/oscar/workspace/*.conf ./
+ls -l
+vim hhb.conf 
+vim m.conf 
+/etc/init.d/php-fpm restart
+/etc/init.d/nginx restart
+vim hhb.conf 
+cp /home/oscar/workspace/include_php.conf ../
+cd ..
+ls
+/etc/init.d/nginx restart
+vim /etc/php-fpm.conf 
+vim /etc/php-fpm.d/www.conf 
+/etc/init.d/php-fpm restart
+vim /etc/nginx/nginx.conf 
+vim /etc/nginx/nginx.conf 
+/etc/init.d/nginx restart
+su oscar
+vim /etc/my.cnf 
+/etc/init.d/
+vim /etc/mysql.cnf 
+vim /etc/my.cnf 
+/etc/init.d/mysql restart
+vim /etc/my.cnf 
+vim /etc/mysql.cnf 
+yum list | grep mysql
+yum install mysql55-mysql-server
+which mysqld
+which mysql
+mysql -V
+mysql
+/etc/init.d/mysql55-mysqld start
+mysqladmin -u root password 'root'
+hostname
+mysqladmin -u root -h oscar838.localdomain password 'root'
+mysqladmin -u root -h "oscar838.localdomain" password 'root'
+vim /etc/host.conf 
+clear
+mysql
+/usr/bin/mysql_secure_installation
+mysql -uroot -proot
+su oscar
+cd /etc/rc.d/
+ll
+tail rc.sysinit 
+service httpd stop
+service httpd start
+service httpd restart
+hostname
+vi /etc/host
+vi /etc/hosts
+/usr/local/work/apache2/bin/apachectl stop
+vim rc.sysinit 
+chkconfig --list | grep smb
+chkconfig --level 2345 smb on
+chkconfig --list | grep smb
+chkconfig --level 2345 mysql on
+chkconfig --list | grep mysql
+fg
+/etc/init.d/httpd stop
+/etc/init.d/httpd start
+/etc/init.d/httpd stop
+cd /usr/local/work/mongodb/
+ll
+cd data/
+ll
+rm -rf mongod.lock 
+ll
+/usr/local/oscar/mongodb-linux-i686-2.4.9/bin/mongod --auth --dbpath=/usr/local/work/mongodb/data/ --logpath=/usr/local/work/mongodb/dblogs --fork
+mongo
+ll
+cd ..
+ll
+mongo
+mongo
+mongo
+ll
+rm -rf dblogs.*
+ll
+cd data/
+ll
+rm -rf *
+ll
+cd ..
+ll
+rm -rf dblogs
+ll
+touch dblogs
+ll
+/usr/local/oscar/mongodb-linux-i686-2.4.9/bin/mongod --auth --dbpath=/usr/local/work/mongodb/data/ --logpath=/usr/local/work/mongodb/dblogs --fork
+mongo
+cd /home/oscar/hhb/
+ll
+cd ..
+mongorestore -d hhb --directoryperdb hhb
+mongo
+ll
+mongoimport -d hhb -c current_groups backlog 
+mongo
+oscar
+ll
+cd /home/windows/oscar/mongo_js/
+ll
+cd ..
+cd ..
+pwd
+cd ..
+ll
+cd oscar/
+ll
+cd workspace/
+ll
+cd mongo_js/
+ll
+sh.sh
+./sh.sh
+chmod +x sh.sh 
+./sh.sh
+vi sh.sh 
+./sh.sh
+cat sh.sh 
+vi test.sh
+./test.sh
+chmod +x test.sh 
+./test.sh
+vi test.sh
+./test.sh
+cd /home/oscar/workspace/
+ll
+cd web2
+ll
+cd web/
+ll
+ll
+ll
+ls -la
+ll
+pwd
+cd ..
+ll
+cd ..
+lll
+ll
+rm -rf web
+ll
+cd web2/
+ll
+pwd
+mv web /home/oscar/workspace/
+ll
+cd ..
+ll
+cd web
+ll
+cd ..
+ll
+cd web2
+ll
+cd ..
+rm -rf web2
+ll
+cd web/
+ll
+git status
+git diff
+git diff --cache
+git log
+git diff--cache
+git log--cache
+git log--cache
+shutdown -h now
+exit
+rm -rf *.tar.gz
+rm -rf *.tgz
+cd lamp/
+ll
+rm -rf *.tgz
+rm -rf *.tar.gz
+rm -rf vmware-tools-distrib/
+oscar
+ll
+cd mongodb/
+ll
+cd mongo_js/
+ll
+cd
+exit
+/usr/local/oscar/mongodb-linux-i686-2.4.9/bin/mongod --auth --dbpath=/usr/local/work/mongodb/data/ --logpath=/usr/local/work/mongodb/dblogs --fork
+exit
+ll
+cd ..
+ll
+cd ..
+ll
+rm -rf windows/
+ll
+cd oscar/
+oscar
+ll
+cd mongodb/
+ll
+cd ..
+rm -rf *
+ll
+oscar
+ll
+exit
+mongo
+cd /usr/local/work/
+ll
+rm -rf mongodb/
+ll
+cd ../oscar/
+ll
+rm -rf mongodb-linux-x86_64-2.4.9/
+ll
+cd
+ll
+exit
+shutdown -h now
+top
+ll
+cd /home/oscar/workspace/
+ll
+cd mongo_js/
+ll
+git status
+ls -la
+ll
+cd ..
+ll
+mkdir github
+cd github/
+ll
+git clone -d git@github.com:qict777/oscarhhb.git
+git clone -b git@github.com:qict777/oscarhhb.git
+history
+git clone git@github.com:qict777/oscarhhb.git
+ssh -T git@github.com
+ll
+cd ..
+ll
+rm -rm test.js 
+rm -rf test.js 
+ll
+cd ..
+ll
+cd ..
+ll
+cd ..
+ll
+cd /home/oscar/workspace/
+ll
+cd mongodb/
+ll
+cd ..
+cd mongodb/
+ll
+rm -rf current_groups_backup 
+ll
+cd ..
+ll
+cd mongo_js/
+ll
+ls -la
+cd ..
+ll
+cd web/
+ll
+cd ..
+ll
+cd mongo_js/
+ll
+cat ~/.ssh/
+ll ~/.ssh/
+ll
+ll ~/.ssh/
+ll -la ~/.ssh/
+ll -la /home/oscar/.ssh/
+cd -la /home/oscar/.ssh/
+cd /home/oscar/.ssh/
+ll
+cat config 
+tail config 
+vi config 
+ll
+vi id_rsa.pub 
+cd ~/
+ll
+cd /home/
+ll
+cd oscar/
+ll
+su oscar
+cat /home/oscar/workspace/mongo_js/a.txt 
+ll
+cd /home/
+cd oscar/
+ll
+cd workspace/
+ll
+cd web/
+ll
+cd ..
+ll
+git clone git@oscar:fb_library.git
+git clone git@oscar:fb_library.git
+git clone git@oscar:fb_library.git
+ll
+mongo
+pwd
+cd web/
+git branch -a
+git branch -r
+git branch -a
+git pull
+ssh -T oscar
+su oscar
+pwd
+ll
+cd /etc/
+ll
+ll
+cd rc.d/
+ll
+tail rc.sysinit 
+chkconfig --list
+chkconfig --list mysql
+chkconfig --list mysql*
+chkconfig --list mys
+chkconfig --list mysqld
+chkconfig --list mysql
+service smb status
+exit
+mysql
+chkconfig --list
+chkconfig --list mysql
+chkconfig --level 2345 mysql off
+chkconfig --list mysql
+cd /etc/init.d/
+ll
+ll mysql*
+pwd
+cp /home/oscar/workspace/mongodb/start_mongodb_service /etc/init.d/
+ll start_mongodb_service 
+chmod +x start_mongodb_service 
+chkconfig --add start_mongodb_service 
+vi start_mongodb_service 
+cat start_mongodb_service 
+vi start_mongodb_service 
+cat start_mongodb_service 
+chkconfig --add start_mongodb_service 
+chkconfig --list start_mongodb_service 
+chkconfig --list |grep start_mongodb_service 
+chkconfig --list |grep mysql
+chkconfig --level 2345 mysql55-mysqld on
+chkconfig --list |grep mysql
+reboot
+mysql
+mysql -uroot -pqict2006
+mysql -uoscar -pqict2006
+mysql -uoscar -poscar
+mysql -uroot -p
+mysql -udev -pqict2006
+service mysqld status
+service mysql status
+chkconfig --list | grep mysql
+service mysql55-mysqld status
+netstat -ntl
+netstat -ntlp
+mysql -udev -pdev5312
+mysql -udev -pdev5718
+hostname
+mysql -udev -pdev5718
+mysql -uroot
+cat /etc/host
+cat /etc/hosts
+vi /etc/hosts
+cat /etc/hosts
+
+source /etc/hosts
+mysql
+mysql -udev -pdev5718
+mysql -uroot -p
+mysql -uroot -pqict2006
+mysql -uroot -p2006
+mysql -uroot -p123456
+mysql -uroot -p2006
+reboot
+yum install php-pecl-mongo.i386
+yum install php53u-pecl-mongo.i386
+ps -ef | grep nginx
+cd /usr/
+ll
+cd bin/
+ll
+cd ngettext 
+exit
+pwd
+git pull
+git fetch
+ll ~/.ssh/
+cat ~/.ssh/known_hosts 
+git status
+git branch -a
+git checkout analysis_oscar
+git status
+git branch -a
+git checkout -a
+git checkout new_dev
+exit
+nginx -s stop
+ps -ef | grep nginx
+nginx -s start
+nginx -s reopen
+nginx -s reload
+start nginx
+service nginx stop
+service nginx start
+pecl install mongo
+cd /home/server/php/bin/
+vi /home/server/php/lib/php.ini
+vi /etc/php.ini
+vi /etc/php.ini
+service nginx stop
+service nginx start
+find / -name "mongo.so"
+vi /etc/php.ini
+service nginx stop
+service nginx start
+find / -name "phpize"
+cd /usr/bin
+ll
+ll phpize 
+cd
+ll
+wget http://pecl.php.net/get/mongo-1.2.0.tgz
+wget http://pecl.php.net/get/mongo-1.4.5.tgz
+ll
+tar mongo-1.4.5.tgz 
+tar zxvf mongo-1.4.5.tgz 
+cd mongo-1.4.5
+ll
+/usr/bin/phpize 
+/usr/bin/phpize 
+find / -name "phpize"
+phpize
+/usr/bin/phpize 
+vi /etc/php.ini 
+vi /etc/php.ini 
+/usr/bin/phpize 
+whereis php
+php -V
+php -v
+which php
+/usr/bin/php -v
+ls
+cd ..
+pecl install mongo
+cd /etc/php.d/
+ls
+vim mongo.ini 
+php -m 
+php -m | grep mongo
+cd ..
+ls
+cd php
+ls
+vim php-fpm.d/
+cd php-fpm.d/
+ls
+cd ..
+cd php.d/
+ls
+pecl --help
+ls /usr/lib/php/modules/
+pecl --help
+pecl uninstall mongo
+pecl install mongo
+ls /usr/lib/php/modules/
+rm mongo.ini 
+rm /usr/lib/php/modules/mongo.so 
+pecl install mongo
+cd /usr/lib/php/build
+mkdir /usr/lib/php/build
+pecl install mongo
+yum install php-devel
+yum install php53u-devel
+pecl install mongo
+ls
+cp gd.ini mongo.ini
+vim mongo.ini 
+/etc/init.d/php-fpm restart
+netstat -ntpl
+cd
+ll
+exit
+history > history2.txt
+exit
+vi /etc/init.d/start_mongodb_service
+/etc/init.d/start_mongodb_service
+exit
+history > history3.txt
+ll
+mv history3.txt /home/oscar/
+ll
+vi /etc/sudoers 
+vi /etc/sudoers 
+usermod -G wheel oscar
+cd /home/oscar/workspace/oscarhhb/mongo_js/match/
+ll
+mongo hhb year_match.js 
+mongo hhb year_match.js 
+mongo hhb year_match.js 
+mongo hhb year_match.js 
+mongo hhb year_match.js 
+mongo hhb year_match.js 
+mongo hhb year_match.js 
+cd ../data_update/match/
+ll
+mongo hhb year_match.js 
+mongo hhb year_match.js 
+mongo hhb year_match.js 
+mongo hhb year_match.js 
+mongo hhb year_match.js 
+cd ../
+ll
+git status
+cd ..
+git status
+git add data_update/match/year_match.js
+git status
+git add match/year_match.js
+git status
+git commit -m "从league中得到year的信息，插入到对应match表中"
+pwd
+vi /etc/init.d/start_mongodb_service 
+cd
+su oscar
+ifconfig eth0
+ifconfig eth0 192.168.8.38 netmask 255.255.255.0
+ifconfig eth0 192.168.8.38 netmask 255.255.255.0
+route add default gw 192.168.8.1
+vi /etc/resolv.conf
+service network restart
+ifconfig eth0 192.168.8.33 netmask 255.255.255.0
+cd /home/oscar/workspace/web
+ll
+git status
+git branch -a
+service smb status
+ifconfig
+ifconfig
+ping 192.168.8.38
+ifconfig
+ifconfig eth0
+ifconfig eth0
+reboot
+vi /etc/sysconfig/network-scripts/ifcfg-eth0
+vi /etc/sysconfig/network
+vi /etc/sysconfig/network-scripts/ifcfg-eth0
+vi /etc/sysconfig/network
+vi /etc/sysconfig/network
+vi /etc/sysconfig/network-scripts/ifcfg-eth0
+vi /etc/resolv.conf
+service network restart
+shutdown -h now
+shutdown -h now
+ifconfig
+vi /etc/sysconfig/network-scripts/ifcfg-eth0
+vi /etc/sysconfig/network
+cat /etc/sysconfig/network
+vi /etc/resolv.conf
+vi /etc/sysconfig/network-scripts/ifcfg-eth0
+netstat -tnpl
+mongo
+ifconfig eth0
+ifconfig eth0
+ifconfig eth0
+ping 192.168.2.19
+ping 192.168.8.19
+vi /etc/sysconfig/network-scripts/ifcfg-eth0
+vi /etc/sysconfig/network-scripts/ifcfg-eth0
+cat /etc/sysconfig/network-scripts/ifcfg-eth0
+service network restart
+ping 192.168.2.19
+vi /etc/sysconfig/network-scripts/ifcfg-eth0
+mysql -uroot -proot
+cd /home/oscar/workspace/
+ll
+cd mysql/
+bunzip2 < db_expert_20140325.sql.bz2 | mysql -uroot -proot db_expert
+mysql -uroot -proot
+bunzip2 < db_expert_20140325.sql.bz2 | mysql -uroot -proot db_expert
+cd /usr/bin/
+ll
+ll python
+ll python2.4 
+ll python2
+ll python
+cd python
+ll env
+top
+qqq
+ping www.baidu.com
+ping www.baidu.com
+shutdown 
+shutdown -h now
+vi /etc/sysconfig/network-scripts/ifcfg-eth0
+vi /etc/sysconfig/network
+vi /etc/resolv.conf 
+service network restart
+aaaaaaaaaaaa
+aaaaaaaaaaa
+history 
+history 
+history 
+history 
+service smb status
+service smb status
+cd /home/oscar/workspace/python/
+ll
+yum install python-chardet
+yum list python-chardet
+yum install python-dateutil
+yum install python-dateutil
+yum list python-chardet
+yum search python-chardet
+yum list python-memcache
+yum list python-memcached
+yum list python-memcache
+yum search python-memcache
+yum search python-memcached
+python
+yum search python-chardet
+yum list python-chardet
+yum list python-dateutil
+yum list python-image
+yum list python-Image
+yum list python-imaging
+yum list python-memcache
+yum list python-memcached
+python
+mongo
+more /etc/init.d/start_mongodb_service 
+mongo
+cd ..
+cd mongodb/
+ll
+mongorestore -d hhb --directoryperdb hhb
+ll
+cd ..
+ll
+cd oscarhhb/
+ll
+cd mongo_js/
+ll
+cd match/
+ll
+mongo hhb year_match.js 
+cd ..
+ll
+cd data_update/
+ll
+cd match/
+ll
+mongo hhb year_match.js 
+pwd
+fds
+fds
+fasd
+a
+fasd
+fasd
+fds
+history 
+mongo
+mysql
+mysql -uroot -proot
+free
+free -h
+free -m
+mongo
+mongo
+mongo
+lsb_release y
+lsb_release -a
+cat /etc/redhat-release
+uname
+uname -a
+getconf LONG_BIT
+yum list samba
+yum info samba
+vi /etc/samba/smb.conf 
+cat /etc/host
+cat /etc/hosts
+cat /etc/hosts
+cat /etc/nginx/nginx.conf 
+cat /etc/nginx/nginx.conf 
+cat /etc/nginx/conf.d/hhb.conf 
+vi /etc/nginx/conf.d/hhb.conf 
+/etc/init.d/php-fpm restart
+/etc/init.d/php-fpm restart
+vi /etc/nginx/conf.d/hhb.conf 
+vi /etc/nginx/conf.d/hhb.conf 
+vi /etc/nginx/conf.d/hhb.conf 
+netstat -tnlp
+cd ..
+cd ..
+cd ..
+ll
+cd ..
+cd web
+ll
+cd scripts/
+ll
+cd qbk_script/
+ll
+php one_month.php 20140325
+cd ..
+cd ..
+git branch -a
+git status
+git status
+git status
+git status
+git status
+git status
+php one_month.php 20140326
+ll
+cd scripts/
+ll
+cd qbk_script/
+ll
+php one_month.php 20140326
+php one_month.php 20140327
+php one_month.php 20140324
+php one_month.php 20140323
+ifconfig
+ifconfig eth0
+ifconfig eth0
+ping www.baidu.com
+cd
+cd /home/oscar/workspace/web
+git status
+shutdown -h now
+mongo
+vi /etc/init.d/start_mongodb_service 
+/etc/init.d/start_mongodb_service 
+su - oscar
+cd /home/oscar/workspace/mongodb/
+ll
+cd data/
+ll
+rm -rf mongod.lock 
+ll
+/etc/init.d/start_mongodb_service 
+ll
+cd ..
+ll
+cd data
+ll
+rm -rf mongod.lock 
+cd ..
+ll
+cat start_mongodb_service 
+/usr/local/oscar/mongodb-linux-i686-2.4.9/bin/mongod --dbpath=/home/oscar/workspace/mongodb/data/ --logpath=/home/oscar/workspace/mongodb/dblogs --fork
+mongo
+shutdown -h now
+ifconfig eth0
+cd /home/oscar/workspace/
+ll
+cd web
+ll
+git status
+git branch -a
+mongo
+cat /etc/init.d/start_mongodb_service 
+/usr/local/oscar/mongodb-linux-i686-2.4.9/bin/mongod --dbpath=/home/oscar/workspace/mongodb/data/ --logpath=/home/oscar/workspace/mongodb/dblogs --fork --journal --directoryperdb
+/usr/local/oscar/mongodb-linux-i686-2.4.9/bin/mongod --dbpath=/home/oscar/workspace/mongodb/data/ --logpath=/home/oscar/workspace/mongodb/dblogs --fork --journal --directoryperdb
+cd /home/oscar/workspace/mongodb/
+ll
+cd data/
+ll
+rm -rf mongod.lock 
+ll
+/usr/local/oscar/mongodb-linux-i686-2.4.9/bin/mongod --dbpath=/home/oscar/workspace/mongodb/data/ --logpath=/home/oscar/workspace/mongodb/dblogs --fork --journal --directoryperdb
+ll
+rm -rf mongod.lock 
+ll
+cd ..
+ll
+cat start_mongodb_service 
+./start_mongodb_service 
+mongo
+vi /etc/init.d/start_mongodb_service 
+cat /etc/init.d/start_mongodb_service 
+cat start_mongodb_service 
+exit
+ping www.baidu.com
+ifconfig
+ifconfig eth0
+/etc/init.d/start_mongodb_service 
+exit
+shutdown -h now
+shutdown -h now
+shutdown -h now
+shutdown -h now
+reboot
+reboot
+cd /root/
+ll
+cd Desktop/
+LL
+ll
+cd ..
+shutdown -h now
+shutdown -h now
+vi /etc/nginx/conf.d/hhb.conf 
+vi /etc/nginx/conf.d/hhb.conf 
+exit
+vi /etc/php.ini 
+exit
+/etc/init.d/php-fpm restart
+exit
+vi /etc/hosts
+cat /etc/hosts
+ping  static.huanhuba.net
+exit
+shutdown -h now

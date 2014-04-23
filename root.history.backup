@@ -1,0 +1,421 @@
+uname -a
+uname 
+getconf 
+getconf -v
+uname 
+ping www.baidu.com
+ifconfig eth0
+shutdown -h now
+ifconfig eth0
+ping www.baidu.com
+yum list
+yum list mysql
+cd /etc/yum.repos.d/
+ll
+service smb status
+ifconfig eth0
+cd /etc/yum.repos.d/
+ll
+rpm -Uvh http://dl.fedoraproject.org/pub/epel/5/x86_64/epel-release-5-4.noarch.rpm
+ll
+yum list mysql
+yum list gcc
+yum -y install gcc*
+yum -y install gcc*
+yum list gcc
+yum list gcc-c++
+yum list smb
+yum list samba
+yum -y install samba* --skip-broken
+yum list samba
+ll
+cd
+pwd
+vi /etc/samba/smb.conf 
+cp /etc/samba/smb.conf /etc/samba/smb.conf.backup
+vi /etc/samba/smb.conf
+service smb restart
+service smb restart
+smbpasswd -a oscar
+setfacl -m u:oscar:rwx -R /
+setfacl -m u:oscar:rwx -R /home/oscar/
+setfacl -m d:u:oscar:rwx -R /home/oscar/
+setfacl -m d:u:oscar:rwx -R /home/
+setfacl -m u:oscar:rwx -R /home/
+setfacl -m u:oscar:rwx -R /home
+setfacl -m d:u:oscar:rwx -R /home
+setfacl -m d:u:oscar:rwx -R /
+vi /etc/samba/smb.conf
+setfacl -m d:u:oscar:rwx -R /
+setfacl -m u:oscar:rwx -R /
+vi /etc/samba/smb.conf
+service smb restart
+setfacl -m d:u:oscar:rwx -R /home/
+setfacl -m u:oscar:rwx -R /home/
+setfacl -m d:u:oscar:rwx -R /home
+setfacl -m u:oscar:rwx -R /home
+service smb restart
+service smb restart
+setfacl -m u:oscar:rwx -R /home/
+setfacl -m d:u:oscar:rwx -R /home/
+cd /home/
+ll
+cd oscar/
+ll
+pwd
+vi /etc/samba/smb.conf
+service smb restart
+setfacl -m u:oscar:rwx -R /home/oscar/
+setfacl -m d:u:oscar:rwx -R /home/oscar/
+smbpasswd -a oscar
+setfacl -m d:u:oscar:rwx -R /home/oscar/
+setfacl -m u:oscar:rwx -R /home/oscar/
+vi /etc/sysconfig/selinux
+reboot
+vi /etc/samba/smb.conf
+service smb restart
+service smb restart
+ifconfig
+ifconfig eth0
+ping www.baidu.com
+reboot
+shutdown -h now
+chkconfig --list smb
+chkconfig --level smb 2345 on
+chkconfig --levels 2345 smb on
+chkconfig --list smb
+exit
+yum list git
+yum install git
+yum list git
+git -v
+git --version
+git status
+ll
+pwd
+exit
+rpm -ivh http://dl.iuscommunity.org/pub/ius/stable/CentOS/5/x86_64/epel-release-5-4.noarch.rpm
+rpm -ivh http://dl.iuscommunity.org/pub/ius/stable/CentOS/5/x86_64/ius-release-1.0-11.ius.centos5.noarch.rpm
+rpm -ivh http://dl.iuscommunity.org/pub/ius/stable/CentOS/5/x86_64/ius-release-1.0-11.ius.centos5.noarch.rpm
+cd /home/oscar/
+ll
+mv nginx.repo /etc/yum.repos.d/
+ll
+cd /etc/yum.repos.d/
+ll
+cd /home/oscar/
+ll
+cd work/
+ll
+cd web/
+git status
+git branch
+git branch -a
+cd
+yum list mysql
+yum install mysql55
+yum install mysql55-server
+yum list mysql55-server
+yum list mysql55
+mysql
+yun installed | grep mysql
+yuM installed | grep mysql
+yum installed | grep mysql
+yum installed | grep mysql55
+yum installed
+yum list installed
+yum list installed | grep mysql
+yum list memcached
+yum list memcache
+yum list memcached
+yum install memcached
+yum list memcached
+mysqld -V
+php -V
+php
+rpm -qa | grep mysql
+rpm -qa | grep httpd
+where php
+yum install php53
+yum install php53u
+yum package-cleanup --problems
+yum install php53u --skip-broken
+package-cleanup --dupes
+package-cleanup --problems
+yum package-cleanup --problems
+yum install yum-utils
+yum-complete-transaction
+yum-complete-transaction --cleanup-only
+package-cleanup --dupes
+package-cleanup --problems
+yum install php53u --skip-broken
+yum install php53u
+yum install php53* --
+yum install php53u* --skip-broken
+rpm -Uvh http://dl.iuscommunity.org/pub/ius/stable/Redhat/5/x86_64/epel-release-5-4.noarch.rpm
+rpm -Uvh http://dl.iuscommunity.org/pub/ius/stable/Redhat/5/x86_64/ius-release-1.0-8.ius.el5.noarch.rpm
+rpm -Uvh http://dl.iuscommunity.org/pub/ius/stable/Redhat/5/x86_64/ius-release-1.0-11.ius.el5.noarch.rpm
+rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL
+rpm --import /etc/pki/rpm-gpg/IUS-COMMUNITY-GPG-KEY
+yum install yum-plugin-replace
+yum install php53u
+yuma replace php53 --replace-with php53u
+yuma list php53
+yum list php53
+yum replace php53 --replace-with php53u
+yum list php53
+yum list php53u
+yum install php53u-fpm php53u-pecl-memcache php53u-mbstring php53u-mysql php53u-mcrypt php53u-gd
+php -v
+/etc/init.d/httpd restart
+/etc/init.d/httpd restart
+/etc/init.d/httpd restart
+netstat -ntpl
+chkconfig --level | grep httpd
+chkconfig --list | grep httpd
+chkconfig --level 2345 httpd on
+chkconfig --list | grep httpd
+chkconfig --list | grep smb
+yum install php53u-pecl-memcache
+chkconfig --list | grep memcached
+/etc/init.d/memcached start
+chkconfig --level 2345 memcached on
+chkconfig --list | grep memcached
+chkconfig --list | grep memcached
+netstat -tnpl
+top -d l
+netstat -tnpl
+top -d l
+top -d 1
+q
+free -m
+tailf /var/log/nginx/error.log
+vim /etc/nginx/conf.d/m.conf
+vim /etc/yum.repos.d/nginx.repo
+yum install nginx
+yum install nginx
+yum install nginx
+yum install nginx
+yum -y install nginx
+yum -y install nginx
+yum -y install nginx
+yum -y install nginx
+yum -y install nginx
+yum -y install nginx
+chkconfig --list | grep nginx
+netstat -tnpl
+/etc/init.d/nginx start
+netstat -tnpl
+/etc/init.d/nginx start
+/etc/init.d/php-fpm start
+/etc/init.d/nginx start
+/etc/init.d/php-fpm start
+netstat -tnpl
+netstat -tnpl
+/etc/init.d/nginx stop
+/etc/init.d/php-fpm start
+/etc/init.d/php-fpm restart
+netstat -tnpl
+/etc/init.d/php-fpm start
+
+chkconfig --list | grep nginx
+ps -le | grep nginx
+/etc/init.d/nginx start
+ps -aux | grep nginx
+netstat -tnpl
+service httpd stop
+netstat -tnpl
+/etc/init.d/nginx start
+/etc/init.d/php-fpm start
+chkconfig --list | grep httpd
+chkconfig --level 2345 httpd off
+chkconfig --list | grep httpd
+netstat -tnpl
+chkconfig --list | grep nginx
+/etc/init.d/nginx start
+chkconfig --list | grep nginx
+ps -aux | grep nginx
+netstat -ntpl
+chkconfig --level 2345 php-fpm on
+chkconfig --list | grep php-fpm
+cd /etc/nginx/
+ll
+cd conf.d/
+ll
+pwd
+cd /home/oscar/
+ll
+chown root hhb.conf m.conf 
+ll
+mv hhb.conf m.conf /etc/nginx/conf.d/
+ll
+rm -rf nginx-1.4.7-1.el5.ngx.x86_64.rpm 
+ll
+cd /etc/nginx/conf.d/
+ll
+vim /etc/php.ini
+cp /etc/php.ini /etc/php.ini.backup
+tailf /var/log/nginx/error.log
+cd /home/oscar/
+ll
+ll
+chown root php.ini 
+ll
+chgrp root php.ini 
+ll
+ll /etc/php.ini
+ll php.ini 
+mv /etc/php.ini /etc/php.ini2
+ll
+mv php.ini /etc/
+ll
+ll /etc/php.ini
+ll /etc/php.ini2 
+/etc/init.d/nginx restart
+/etc/init.d/php-fpm restart
+ll /etc/nginx/conf.d/hhb.conf 
+chgrp root /etc/nginx/conf.d/hhb.conf 
+chgrp root /etc/nginx/conf.d/m.conf 
+cd /etc/nginx/conf.d/
+ll
+/etc/init.d/php-fpm restart
+/etc/init.d/nginx restart
+cd /home/oscar/
+ll
+chown root include_php.conf 
+chgrp root include_php.conf 
+ll
+mv include_php.conf /etc/nginx/
+/etc/init.d/nginx restart
+/etc/init.d/php-fpm restart
+vim /etc/php-fpm.conf
+vim /etc/php-fpm.conf
+vim /etc/php-fpm.d/www.conf
+cp /etc/php-fpm.d/www.conf /etc/php-fpm.d/www.conf.backup
+vim /etc/php-fpm.d/www.conf
+/etc/init.d/php-fpm restart
+vim /etc/nginx/nginx.conf
+cp /etc/nginx/nginx.conf /etc/nginx/nginx.conf.backup
+vim /etc/nginx/nginx.conf
+/etc/init.d/nginx restart
+vim /etc/my.cnf
+cp /etc/my.cnf /etc/my.cnf.backup
+vim /etc/my.cnf
+/etc/init.d/mysql restart
+vim /etc/mysql.cnf
+mysql -V
+/etc/init.d/
+yum install mysql55-mysql-server
+vim /etc/my.cnf 
+/etc/init.d/mysql restart
+vim /etc/mysql.cnf
+/etc/init.d/mysql55-mysqld start
+mysql
+mysql
+mysql
+mysqladmin -u root password 'root'
+mysql
+mysql -uroot -proot
+hostname
+mysqladmin -u root -h "%" password 'root'
+mysqladmin -u root -h '%' password 'root'
+mysql -uroot -proot
+vim /etc/host.conf
+clear
+/usr/bin/mysql_secure_installation
+mysql -uroot -proot
+mysql -uroot -proot
+fg
+mysql -uroot -proot
+netstat -tnpl
+chkconfig --list mysql
+chkconfig --list mysqld
+chkconfig --list mysql
+chkconfig --list |grep mysql
+chkconfig --level 2345 mysql55-mysqld on
+chkconfig --list |grep mysql
+chkconfig --list |grep smb
+yum install php-pecl-mongo
+yum install php53u-pecl-mongo.i386
+yum install php53u-pecl-mongo
+pecl install mongo
+usr/local/nginx/conf/nginx.conf
+vi /etc/nginx/conf.d/default.conf 
+vi /usr/share/nginx/html/index.php
+vi /usr/share/nginx/html/index.php
+vi /etc/nginx/conf.d/default.conf 
+service nginx restart
+/etc/init.d/php-fpm restart
+vi /usr/share/nginx/html/index.html 
+vi /usr/share/nginx/html/index.html 
+vi /usr/share/nginx/html/index.html 
+vi /etc/nginx/conf.d/default.conf 
+rm -rf /usr/share/nginx/html/index.php
+exit
+vi /etc/nginx/conf.d/m.conf 
+git status
+exit
+ifconfig eth0
+service smb status
+service smb start
+service smb start
+chkconfig --list smb
+chkconfig --level 2345 on
+netstat -tpnl
+vi /etc/profile
+source /etc/profile
+echo $PATH
+mongo
+n
+free -m
+top -d 1
+ll
+cd /home/osc
+cd /home/oscar/
+ll start_mongodb_service 
+cat start_mongodb_service 
+ll start_mongodb_service 
+chown root start_mongodb_service 
+chgrp root start_mongodb_service 
+ll start_mongodb_service 
+mv start_mongodb_service /etc/init.d/
+ll /etc/init.d/start_mongodb_service 
+chkconfig --list | grep sta
+chkconfig --add /etc/init.d/start_mongodb_service 
+cd /etc/init.d/
+ll start_mongodb_service 
+chkconfig --add start_mongodb_service 
+chkconfig --list | grep start_mongodb_service 
+chkconfig --list | grep mysql
+chkconfig --list | grep nginx 
+chkconfig --list | grep fpm
+chkconfig --list | grep httpd
+chkconfig --list | grep memcached 
+chkconfig --list | grep smb 
+shutdown -h now
+reboot
+ll /etc/init.d/start_mongodb_service 
+chmod 777 /etc/init.d/start_mongodb_service 
+ll /etc/init.d/start_mongodb_service 
+/etc/init.d/start_mongodb_service 
+cat /etc/init.d/start_mongodb_service 
+/home/oscar/workspace/mongodb/mongodb/bin/mongod --dbpath=/home/oscar/workspace/mocar/workspace/mongodb/mongodb/logs/log --fork
+cd /home/oscar/workspace/mongodb/mongodb/
+ll
+pwd
+cd logs
+ll
+pwd
+vi /etc/init.d/start_mongodb_service 
+cd ..
+ll
+cd ..
+ll
+cat start_mongodb_service 
+vi /etc/init.d/start_mongodb_service 
+/etc/init.d/start_mongodb_service 
+cd
+mongo
+mongo
+reboot
+shutdown -h now
