@@ -1,4 +1,4 @@
-// 所有联赛球队的各赛季的最新比赛信息更新{全场（主客场）+半场(主客场)}  2014-03-07
+// 所有联赛球队的各赛季的最新比赛信息更新{全场（主客场）+半场(主客场)}  2014-04-23
 
 var start_time = new Date().getTime();
 
@@ -247,7 +247,7 @@ league_info.forEach(function(item){
 
                 var tem_score_home = db.team.find({"_id": team_id ,"access_total.score_home.league_id" : league_id, "access_total.score_home.year" : season_id}).count();
 
-                var data_home_r_tem = {"league_id":NumberInt(league_id),"year":season_id,"data":data_home_r}
+                var data_home_r_tem = {"league_id":NumberInt(league_id),"year":season_id,"league_name":league_name,"data":data_home_r}
 
                 if(tem_score_home){
 
@@ -288,7 +288,7 @@ league_info.forEach(function(item){
 
                 var tem_score_away = db.team.find({"_id": team_id ,"access_total.score_away.league_id" : league_id, "access_total.score_away.year" : season_id}).count();
 
-                var data_away_r_tem = {"league_id":NumberInt(league_id),"year":season_id,"data":data_away_r}
+                var data_away_r_tem = {"league_id":NumberInt(league_id),"year":season_id,"league_name":league_name,"data":data_away_r}
 
                 if(tem_score_away){
 
@@ -352,7 +352,7 @@ league_info.forEach(function(item){
 
                 var tem_score_total = db.team.find({"_id": team_id ,"access_total.score_total.league_id" : league_id, "access_total.score_total.year" : season_id}).count();
 
-                var data_total_r_tem = {"league_id":NumberInt(league_id),"year":season_id,"data":data_total_r}
+                var data_total_r_tem = {"league_id":NumberInt(league_id),"year":season_id,"league_name":league_name,"data":data_total_r}
 
                 if(tem_score_total){
 
@@ -389,7 +389,7 @@ league_info.forEach(function(item){
 
                 var tem_score_home_half = db.team.find({"_id": team_id ,"access_total.score_home_half.league_id" : league_id, "access_total.score_home_half.year" : season_id}).count();
 
-                var data_home_r_half_tem = {"league_id":NumberInt(league_id),"year":season_id,"data":data_home_r_half}
+                var data_home_r_half_tem = {"league_id":NumberInt(league_id),"year":season_id,"league_name":league_name,"data":data_home_r_half}
 
                 if(tem_score_home_half){
 
@@ -431,7 +431,7 @@ league_info.forEach(function(item){
 
                 var tem_score_away_half = db.team.find({"_id": team_id ,"access_total.score_away_half.league_id" : league_id, "access_total.score_away_half.year" : season_id}).count();
 
-                var data_away_r_half_tem = {"league_id":NumberInt(league_id),"year":season_id,"data":data_away_r_half}
+                var data_away_r_half_tem = {"league_id":NumberInt(league_id),"year":season_id,"league_name":league_name,"data":data_away_r_half}
 
                 if(tem_score_away_half){
 
@@ -490,7 +490,7 @@ league_info.forEach(function(item){
 
                 var tem_score_total_half = db.team.find({"_id": team_id ,"access_total.score_total_half.league_id" : league_id, "access_total.score_total_half.year" : season_id}).count();
 
-                var data_total_r_half_tem = {"league_id":NumberInt(league_id),"year":season_id,"data":data_total_r_half}
+                var data_total_r_half_tem = {"league_id":NumberInt(league_id),"year":season_id,"league_name":league_name,"data":data_total_r_half}
 
                 if(tem_score_total_half){
 
