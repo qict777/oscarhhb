@@ -1,1000 +1,1000 @@
-ll
-rm -rf test/
-ll
-ll
-mkdir test
-cd test
-vi mongo.py
-ll
-chmod +x mongo.py 
-ll
-./mongo.py 
-./mongo.py 
-cat mongo.py 
-vi mongo.py
-./mongo.py 
-python
-./mongo.py 
-vi mongo.py 
-./mongo.py 
-vi mongo.py 
-./mongo.py 
-vi mongo.py 
-./mongo.py 
-vi mongo.py 
-./mongo.py 
-vi mongo.py 
-python mongo.py 
-vi mongo.py 
-python mongo.py 
-vi mongo.py 
-python mongo.py 
-vi mongo.py 
-python mongo.py 
-python mongo.py 
-vi mongo.py 
-python mongo.py 
-vi mongo.py 
-python mongo.py 
-vi mongo.py 
-python mongo.py 
-python mongo.py 
-python mongo.py 
-free
-free -m
-cd ..
-pwd
-cd ..
-ll
-cd oscarhhb/
-ll
-git status
-git add .
-git status
-git commit -m "match year fix"
-git status
-git push
-git log
-git log --decorate --color
-git log --decorate --color --graph 
-ll
-cd ..
-ll
-free
-free -m
-cd web
-ll
-git status
-git status
-git branch -a
-git status
-git status
-git difft *Bar
-git diff *Bar
-git diff *Bar --cached HEAD
-git add --all
-git diff *Bar --cached HEAD
-git diff --cached HEAD *Bar
-git diff --cached HEAD
-git diff --cached HEAD *
-git status
-git diff --cached HEAD static.huanhuba.net/lotterydb/js/leftBar.js
-git status
-git diff --cached HEAD static.huanhuba.net/lotterydb/js/leftBar.js
-git status
-git reset HEAD static.huanhuba.net/lotterydb/js/show*
-git status
-git reset HEAD static.huanhuba.net/lotterydb/js/leftBar.js
-git status
-git checkout -- static.huanhuba.net/lotterydb/js/
-git status
-git commit -m "xi finished"
-git push origin analysis_oscar
-mongo
-git status
-git add static.huanhuba.net/lotterydb/js/xi_dev.js
+git fetch -p
+git pull
+git branch
+git branch sql_lamu
+git checkout sql_lamu
+git branch
+git branch
 git status
 git status
 git status
-git checkout static.huanhuba.net/lotterydb/js/leftBar.js
 git status
-git commit -m "analysis page update"
+git branch
+git commit -am "最长连胜纪录sql修改"
 git status
-git status
-git add .
-git status
-git status
-git reset HEAD static.huanhuba.net/lotterydb/js/leftMenu.js
-git status
-git reset HEAD static.huanhuba.net/lotterydb/js/cup_88.js
-git status
-git reset HEAD static.huanhuba.net/lotterydb/js/lg_51.js
-git status
-git reset HEAD static.huanhuba.net/lotterydb/js/lg_88.js
-git reset HEAD static.huanhuba.net/lotterydb/js/lg_89.js
-git status
-git log
-git status
-git a
-git status
-git commit -m "analysis page update 2"
-git status
-git push origin analysis_oscar
-git status
-git branch -a
-git log --decorate --color --graph 
-git branch -a
-git checkout new__dev
-git branch new__dev
-git branch -a
-git branch new_dev
+git branch
 git checkout new_dev
-git branch -a
+git branch
 git pull
 git pull
-git status
-git log --decorate --graph --color
-git branch -a
-git branch zqmf_oscar
-git log --decorate --graph --color
-git branch -a
-git checkout zqmf_oscar 
-git branch -a
-git log --decorate --graph --color
-git branch -a
-/etc/init.d/start_mongodb_service
-exit
-cd workspace/web
-ll
-git status
-git checkout www.huanhuba.net/zucai/extract.php
-git status
-git status
-git branch -a
 git pull
-git status
-git log --decorate --graph --color
-git status
-ll
-cd scripts/
-ll
-cd qbk_script/
-ll
-php one_month.php 20140331
-php one_month.php 20140330
-php one_month.php 20140329
-php one_month.php 20140328
-php one_month.php 20140327
-php one_month.php 20140326
-php one_month.php 20140325
-php one_month.php 20140324
-git status
-git status
-git status
-git branch -a
-git commit -m "格策足球魔方排序修改需求"
-git commit -am "格策足球魔方排序修改需求"
-git status
-git pull
-git log --decorate --color --graph 
-git branch -a
-git branch -a
-git log --decorate --color --graph 
-cd ..
-cd ..
-git status 
-git log 
-history
-git status 
-git checkout www.huanhuba.net/zucai/templates/top.tpl
-git status
-git branch  -a
-git push
-git pull
-git log 
-git push
-git pull
-git config --global push.default simple
-git pull
-git status
-git glog
-git push origin zqmf_oscar
-git status
-git branch -a
-git pull
-git status
+git fetch 
+git fetch -p
+git merge sql_lamu
 git status
 git diff
+git log
+git diff --cache
+git diff
+git status
+git log
+../dist.web.sh 3c4a0d3 HEAD
+git push
+git push
+git checkout sql_lamu
+git branch
+git git status
+git status
+git status
 git diff
 q
+git log
+qq
+git commit -am "最长连胜纪录sql修改2"
 git status
-php scripts/qbk_script/top_everyday_crontab.php
-php scripts/qbk_script/top_everyday_crontab.php
-php scripts/qbk_script/top_everyday_crontab.php
-php scripts/qbk_script/top_everyday_crontab.php
-php scripts/qbk_script/top_everyday_crontab.php
-php scripts/qbk_script/top_everyday_crontab.php
-git status
-git diff
-php scripts/qbk_script/top_everyday_crontab.php
-git status 
-git commit -am "拉姆推荐市场用户id过滤需求"
-git status 
-git branch -a
-git push
-git push
-git status origin zqmf_oscar
-git push origin zqmf_oscar
-git log --decorate --graph --color
-git push origin zqmf_oscar
-git push origin zqmf_oscar
-git pull
-git log --decorate --graph --color
-mongo
-su -
-su -
-mysql
-ping static.huanhuba.net
-mysql -h115.29.185.184 -p7689 -udev -pdev5718
-mysql -h115.29.185.184 -udev -pdev5718
-mysql -h115.29.185.184 -P7689 -udev -pdev5718
-ssh web@115.29.185.184
-cd workspace/
-cd web/
-ll
-git status
-git diff
-git branch -a
-git branch test_dev
 git branch
-git checkout origin test_dev
-git checkout origin/test_dev
-git branch
-git checkout test_dev
-git diff
-git log
-git diff
-git commit -am "拉姆推荐市场用户id过滤需求 fix"
-git status
-git push
-git push origin test_dev
-git pull
-git log
-git push origin test_dev
-git pull
-git branch 
-git pull origin test_dev
-git log
-git branch 
-git status
-git push
-git push origin test_dev
-ssh web@115.29.185.184
-git status
-git branch -a
-git log
-git checkout zqmf_oscar 
-git status
-git log
-git diff
-git branch -a
-ll
-ll
-git branch -a
-git checkout test_dev 
-git log
-git diff
-git diff --cache
-git diff -cache
-git log --cache
-git branch -a
-git push origin test_dev
-git log
-ssh web@115.29.185.184
-ll
-exit
-cd workspace/web/scripts/qbk_script/
-php one_month.php 
-ll
-php match_everyday_crontab.php 
-git status
-git status
-git status
-git status
-php one_month.php 
-git status
-cd ..
-cd ..
-git status 
-git add www.huanhuba.net/zucai/extract_list_api2.php
-git status 
-git commit -am "格策足球魔方排序优化修改2"
-git status
-git branch 
-git pull origin test_dev
-git status
-git log
-git log --decorate --graph --color
-git push origin test_dev
-ping static.huanhuba.net
-ssh web@115
-git status
-git commit -am "格策足球魔方排序优化3"
-git status
-git push origin test_dev
-git diff
-git diff --cache
-git log --cache
-ping static.huanhuba.net
-ssh web@115.29.185.184
-ll
-cd ..
-ll
-cd mysql/
-ll
-mysql -uroot -proot db_expert < db2_expert.sql 
-git status
-cd ../web/
-ll
-git status 
-git status 
-git status 
-git status
-git commit -am "格策足球魔方排序sql修改"
-git status
-git push origin test_dev
-git pull
-git log
-git push origin test_dev
-git pull origin test_dev
-git log
-git status
-git push origin test_dev
-ssh web@115.29.185.184
-git status
-git branch -a
-git branch
-git branch -d new__dev
-git branch -d | -D new__dev
-git branch -D new__dev
-git branch 
-git checkout new_dev 
-git pull
-git status
-git pull origin new_dev
-git branch -a
-git branch 
-git checkout zqmf_oscar
-git status
 git checkout new_dev
+git merge sql_lamu
 git pull
-git pull
-git pull
-git branch -a
-git branch oscar_new_dev
 git branch
-git checkout test_dev
-git status
-ll www.huanhuba.net/zucai/extract.php 
-cd www.huanhuba.net/zucai/
-pwd
-cd templates/
-pwd
-ll extract_new.tpl 
-cd ..
-pwd
-ll extract_list_api2.php 
-pwd
-ll extract_list_api2.php 
-cd ../../scripts/qbk_script/
-ll top_everyday_crontab.php 
-pwd
-ll top_everyday_crontab.php 
-pwd
-ll top_everyday_crontab.php 
-cd /home/oscar
-ll
-ll
-cp /home/oscar/workspace/web/www.huanhuba.net/zucai/extract.php /home/oscar/workspace/web/www.huanhuba.net/zucai/extract_list_api2.php /home/oscar/workspace/web/www.huanhuba.net/zucai/templates/extract_new.tpl /home/oscar/workspace/web/scripts/qbk_script/top_everyday_crontab.php /home/oscar/
-ll
-ll
-cd ..
-cd oscar/workspace/web/
-git branch -a
-git branch
-git checkout oscar_new_dev 
-git status
-git pull
-git pull origin new_dev
-git pull origin new_dev
-git branch 
-git branch 
-git status 
-git add www.huanhuba.net/zucai/extract_list_api2.php
-git status 
-git branch 
-git log
-git branch 
-git status 
-git commit -am "格策足球魔方拉姆推荐市场修改需求"
 git status
 git log
-git branch
-git branch -a
-git branch 
 git push
-git checkout new_dev 
-git pull
-git merge oscar_new_dev 
 git log
-git branch 
+git branch
 git push
-git log 
-../dist.web.sh HEAD^ HEAD
-git checkout oscar_new_dev 
-git status 
-git log 
-git checkout new_dev 
-../dist.web.sh 7a68579 HEAD
-history 
-git branch 
 git pull
-git checkout oscar_new_dev 
-git pull
-git pull origin new_dev
-git pull origin new_dev
-git branch 
 git log
-git log --decorate --graph --color
-git branch 
+../dist.web.sh 913128d77 HEAD
+../dist.web.sh 913128d7 HEAD
+../dist.web.sh 61ddc1b cc90b8a
+q
+git branch
+source ~/.git-completion.bash 
+git checkout info_update 
+git status
+git log
+git branch
+git status
 git status
 git diff
-git status 
-git status 
+git diff --color
+git branch
+git commit -am "资料库修改"
+git status
+git log
+git branch 
+git checkout new_dev 
+git pull
+git pull
+git pull
+git branch
+git merge info_update 
+git log
+git status
+git push
+git push
+git pull
+git log
+../dist.web.sh dbcbff93 HEAD
+git log 
+git log 
+../dist.web.sh dbcbff9 HEAD
+git log
+../dist.web.sh dbcbff9 1601634
+git log
+git checkout info_update 
+git status
+git log
+git checkout new_dev 
+git log
+../dist.web.sh ef07f0 dbcdff
+../dist.web.sh ef07f0 dbcbff
+git branch
+git pull
+git pull
+git pull
+git branch
+git branch info_bug
+git checkout info_bug 
+git branch
+git status
+git diff
+git diff --color
+git status
+git commit -am "资料库剩余时间修改"
+git status
+git log
+git branch
+git checkout new_dev 
+git pull
+git merge info_bug
+git diff
+git log
+git push
+../dist.web.sh HEAD^ HEAD
+git branch
+cd ..
+git clone git@oscar:fb_library.git
+ll
+cd ~/.ssh/
+ll
+vim config 
+git clone dev git@oscar:fb_library.git
+git clone -b dev git@oscar:fb_library.git
+ll
+rm -rf oscar 
+ll
+ll
+ll
+rm -rf fb_library/
+ll
+pwd
+cd .
+cd ..
+ll
 cd workspace/
+ll
+ll
+git clone -b dev git@oscar:fb_library.git
+rm -rf fb_library/
+ll
+git status
+git clone -b dev git@oscar:fb_library.git
+ll
+cd ~/.ssh/
+ll
+git status
+ssh-add config 
+ll
+ll
+cat id_rsa
+:q!
+ll
+chmod 600 id_rsa
+cd ..
+ll
+cd workspace/
+ll
+git clone -b dev git@oscar.fb_library.git
+git clone -b dev git@oscar:fb_library.git
+clear
+ll
+git clone -b dev git@oscar.fb_library.git
+git clone -b dev git@oscar:fb_library.git
+git clone -b dev git@oscar:fb_library.git
+clear
+cd ~/.ssh/
+ll
+chmod 755 id_rsa
+ll
+chmod 760 id_rsa
+ll
+chmod 770 id_rsa
+ll
+cd ~/workspace/
+ll
+git clone -b dev git@oscar:fb_library.git
 cd web/
 ll
-git branch -a
-git push origin test_dev
+git status
+git config 
+cd .git/config 
+cat .git/config 
+cd ~/.ssh/
+ll
+ssh-add config 
+vim config 
+ll
+cat id_rsa
+:q!
+cd ..
+cd ..
+cd oscar/
+ll
 ll
 cd ..
-ll
-cd mysql/
-ll
-ll
-mysql
-mysql -uroot -proot
-ll
-cd ..
-ll
-cd web/scripts/qbk_script/
-ll
-php top_everyday_crontab.php 
-ll
-php top_everyhour_crontab.php 
-php top_everyday_crontab_compute_today.php 
-git status
-git checkout top_everyday_crontab.php
-git status 
-ll
-php top_everyhour_crontab.php 
-git status 
-git status 
-pwd
-pwd
-git status
-git status
-git status
-git status
-cd ..
-ll
-cd ..
-ll
-cd ../oscarhhb/
-ll
-git status
-git checkout mongo_js/data_update/match/14_03_28.log
-git rm mongo_js/data_update/match/14_03_28.log
-ll
-cd mongo_js/
-ll
-cd match/
-ll
-cd ../data_update/match/
-ll
-rm -rf 14_03_28.log 
-ll
-git status
-git pull
-git branch 
-git branch -a
-cd /etc/yum.repos.d/
-ll
-cd /home/oscar/
-ll
-cd Desktop/
-LL
-ll
-cd ..
-ll
-cd workspace/
-ll
-cd /usr/local/
 ll
 cd oscar/
 ll
-ping static.huanhuba.net
-ssh web@115.29.185.184
-uname -a
+cd workspace/
+ll
+ll
+cd ..
+ll
+cd workspace/
+ll
+git clone -b dev git@oscar:fb_library.git
+cd ~/.ssh/
+ssh-add oscar 
+chmod 600 oscar 
+ssh-add oscar 
+ssh-add config 
+ll
+chmod 777 config 
+ll
+chmod 777 oscar 
+ssh-add config 
+ll
+vim config 
+ll
+chmod 600 oscar 
+ssh-add config 
+soucre oscar
+su -
+ssh-add config 
+ssh-add config 
+ll
+chmod 600 .
+ll
+ll
+ll
+cd ..
+ll
+cd workspace/
+ll
 pwd
-ll
-cd
-cd workspace/web/scripts/qbk_script/
-ll
-php one_month.php 
-ssh web@
-ssh web@115.29.185.184
-cd workspace/web/
+cd web/
 git status
-gid diff
-git diff
+git pull
+su -
+rpm -Uvh http://nginx.org/packages/centos/6/noarch/RPMS/nginx-release-centos-6-0.el6.ngx.noarch.rpm
+cd workspace/
+cd ..
+cd .ssh/
+ll
+cd .
+ll -a
+cd ..
+ll -a
+chmod 600 .ssh
+ll -a
+cd .ssh/
+ll
+chmod 700 .ssh
+ll .ssh
+ll -a
+cd .ssh/
+ll
+ll -a
+chmod 600 config 
+ll
+chmod 600 id_rsa
+chmod 644 id_rsa.pub 
+ll
+chmod 644 known_hosts 
+ll
+cd ..
+cd workspace/
+ll
+cd web/
+git pull
+git pull
+git fetch -p
+git fetch
+git branch
+cd ..
+cd ..
+ll .git-completion.bash 
+pwd
+vi .bashrc 
+source .git-completion.bash 
+git status 
+cd workspace/
+ll
+ssh -T oscar
+git clone -b dev git@oscar:fb_library.git
+ll
+cd fb_library/
+git branch
+git branch -a
+git log
+yum update
+su -
+cd ..
+ll
+git clone git@github.com:qict777/oscarhhb.git
+ssh-keygen -t rsa -C "seven_qi@foxmail.com"
+ssh-keygen -t rsa -C "seven_qi@foxmail.com"
+cd ../.ssh/
+cat id_rsa.pub 
+cat id_rsa.pub 
+ssh -T git@github.com
+cd ..
+cd workspace/
+ll
+git clone git@github.com:qict777/oscarhhb.git
+cd oscarhhb/
+git status
+git add .
+git status
+git commit -am "新的centos历史命令添加"
 git branch
 git branch -a
 git status
-git branch 
-git checkout analysis_oscar 
-git branch 
-git status 
-git add .
-git status 
-git checkout analysis_oscar
-git commit -m "拉姆我的消费需求"
-git status 
-git log
-git checkout analysis_oscar
-git status
+git push
+git push
+cd ..
+ll
+su -
+ll
 mongo
-git branch 
-git checkout oscar_new_dev 
-git checkout oscar_new_dev 
-git checkout analysis_oscar 
+ssh yien@192.168.2.16
+ll
+cd workspace/
+cd web/
+ll
+cd ..
+cd mongodb/
+ll
+mongorestore -d hhb2 --directoryperdb hhb2
+mongo
+cd workspace/mongodb/
+ll
+mongorestore -d hhb2 --directoryperdb hhb2
+mongo
+ll
+cd ..
+ll
+cd fb_library/
+ll
 git status
+git pull
+git fetch -p
+git fetch
+git branch oscar
+git branch -a
+git checkout oscar 
+git branch
+git branch -a
+ll
+cd mongo_js/
+ll
+cd team
+ll
+mongo hhb2 score_team.js 
+pwd
+mongo
+cd ..
+cd ..
+cd ..
+cd mongodb/
+ll
+mongorestore -d hhb2 --directoryperdb hhb2
+cd ..
+cd fb_library/
+ll
+cd mongo_js/
+ll
+cd data_update/
+ll
+cd team
+pwed
+pwd
+ll
+mongo hhb2 score_team.js 
+mongo hhb2 score_team.js 
+mongo hhb2 score_team.js 
+mongo hhb2 score_team.js 
+mongo hhb2 score_team.js 
+mongo
+mongo hhb2 score_team.js 
+mongo hhb2 score_team.js 
+mongo
+mongo
+mongo hhb2 score_team.js 
+mongo hhb2 score_team.js 
+mongo hhb2 score_team.js 
+mongo hhb2 score_team.js 
+mongo hhb2 score_team.js 
+mongo hhb2 score_team.js 
+ll
+mongo hhb2 num_team.js 
+git status
+cd ..
+cd ..
+cd ..
+cd ..
+cd web/
+git status
+git status
+git status
+git branch -a
+git branch
+cd ..
+cd fb_library/
+git status
+git branch
+cd ..
+cd oscarhhb/
+ll
+git status
+git checkout .
+git checkout .
+git status
+git branch
+git add .
+git status
+git commit -am "today mongo update"
+git status
+git push
+git status
+git pull
+su -
+ll
+cd workspace/
+cd fb_library/
+ll
+cd mongo_js/
+ll
+cd data_update/
+ll
+cd team/
+ll
+pwd
+ll
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo
+mongo
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo hhb2 test.js
+git diff
+git status
+git status
+git status
+git status
+git status
+ll
+mongo hhb2 yp_and_dx_team.js 
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo hhb2 test.js 
+mongo hhb2 yp_and_dx_team.js 
+mongo hhb2 yp_and_dx_team.js 
+mongo hhb2 yp_and_dx_team.js 
+mongo hhb2 yp_and_dx_team.js 
+mongo hhb2 num_team.js 
+git status
+git status
+git commit -am "资料库2014年份部分数据bug修复"
+git status
+cd ..
+cd ..
+cd ..
 cd ..
 ll
 cd mongodb/
 ll
-cd hhb/
+cd hhb2
 ll
-mongoimport -d hhb -c minutes_match minutes_match.log
-free -m
-mongo
-cd ..
-/etc/init.d/start_mongodb_service 
-su -
-mongo
-cat /home/oscar/workspace/web/m.huanhuba.net/Application/Runtime/Cache/Info/1eec6706f1bc4a00c8f91f2ceb17bb53.php
 cd ..
 ll
-git status
-cd web/
+mongorestore -d hhb3 --directoryperdb hhb2
+cd ..
 ll
-git status
-git status
-git status
-git status
-git add .
-git status
-git commit -m "析页面分钟数据修改需求"
-git status
-git branch
-git branch -a
-git push origin analysis_oscar
-git push origin analysis_oscar
-shutdown -h now
-su -
-cd workspace/web/
-git status
-git branch 
-git push
-git push --set-upstream origin analysis_oscar
-git push
-git push origin analysis_oscar
-git status
-git status
-git checkout -- m.huanhuba.net/Application/Common/Conf/config.php
-git status
-git add .
-git commit -m "op yp"
-git glog
-git log
-git push
-git status
-su -
+cd fb_library/
+ll
+cd mongo_js/
+ll
+cd data_update/
+ll
+cd team
+pwd
+ll
+cd ../..
+ll
+cd ..
+cd ..
+ll
+cd ..
 ll
 cd workspace/
 ll
+ll
+mongo
+ll
+cd fb_library/
+ll
+cd mongo_js/
+ll
+chmod +x sh.sh 
+./sh.sh 
+mongo
+ll
+mongo
+cd workspace/fb_library/mongo_js/
+ll
+./sh.sh 
+pwd
 git status
+mongo
+ll
+git status
+git log
+ll
+cd data_update/
+cd team/
+ll
+mongo hhb score_team.js yp_and_dx_team.js num_team.js 
+cd ..
+cd ..
+git status 
+cd ..
+..
+cd ..
 cd web/
 git status
-git branch 
-mongo
-mongo
-ll
-cd ../hhb/
-ll
 cd ..
+cd oscarhhb/
 ll
-mongorestore -d hhb2 --directoryperdb hhb
-mongo
-su -
-cd workspace/web/
-git branch 
 git status 
-git status 
-cat static.huanhuba.net/lotterydb/js/opyp.js 
-moretatic.huanhuba.net/lotterydb/js/opyp.js 
-more static.huanhuba.net/lotterydb/js/opyp.js 
-more static.huanhuba.net/lotterydb/css/opyp.css 
-git status 
-git status 
-git status 
-git status 
-git status 
-git status 
-git status 
-git add .
-git status 
-git commit -m "分钟数据二次修改"
-git status 
-git push
-git log
+git commit -am "资料库球队页面bug修复"
 git status
-git push origin analysis_oscar 
-sudo shutdown -h now
-sudo - shutdown -h now
-su -
-mysql
+git push
+git status
+git add .
+git commit -am "info doc"
+git status
+git push
+git push
+git pull
+cd ..
+cd fb_library/
+git branch
+git status
+git checkout dev
+git status
+git pull
+git branch -a
+git branch
+git merge oscar
+git status
+git status
+git log
+cd ..
+cd ..
 ll
 cd workspace/
-cd mysql/
 ll
-bunzip2 db_hhb_20140408.sql.bz2 < mysql -uroot -proot db_hhb
-ll
-bunzip2 < db_hhb_20140408.sql.bz2 | mysql -uroot -proot db_hhb
-mysql
-mysql -uroot -proot db_hhb
-cd workspace/web
-git status 
-su -
-git status 
-cd workspace/web
-git status 
-su -
-vi /etc/hosts
-cd workspace/web/scripts/
-ll
-ll info_analysis
-cd info_analysis
-ll
-ll
-ll
-ll
-ll | wc -l
-ll | wc -l
-ll | wc -l
-ll | wc -l
-ll | wc -l
-ll | wc -l
-ll | wc -l
-ll | wc -l
-ll | wc -l
-ll | wc -l
-ll | wc -l
-ll | wc -l
-ll | wc -l
-ll | wc -l
-ll | wc -l
-ll | wc -l
-ll | wc -l
-ll | wc -l
-ll | wc -l
-ll | wc -l
-cd ..
-ll
-ll info_analysis.php 
-cd info_analysis
-ll | wc -l
-ll | wc -l
-ll | wc -l
-ll | wc -l
-ll | wc -l
-ll | wc -l
-ll | wc -l
-ll | wc -l
-ll | wc -l
-ll | wc -l
-ll | wc -l
-cd ..
-ll
-cd info_analysis
-ll | wc -l
-ll | wc -l
+cd web/
 git status
+git checkout -- m.huanhuba.net/Application/Common/Conf/debug.php
 git status
-cd ..
-git status
-cd ..
-ll
-git status
-git status
-git status
-git status
-git status
-git status
-git branch 
-git commit -am "资料库 情欧亚析 页面修改"
-git status
-git push
-git log
-git status
-git branch -a
+git pull
+git pull
 git fetch -p
-git branch -a
-git fetch -p
-git branch -a
-git branch
-git branch -d test_dev
-git branch -D test_dev
-git branch
-git branch -D info_oscar 
-git branch
-git branch -D oscar_new_dev 
-git branch
-git branch -D zqmf_oscar 
-git branch -D analysis_oscar 
-git branch
-git checkout new_dev 
-git branch -D analysis 
-git branch
-git pull
-git branch
-git pull
-git status
-git log
-git pull
 git fetch
-git log --decorate --graph --color
+git branch
 cd workspace/web/
-git status
-git status
-git status
-git checkout -- m.huanhuba.net/Application/Common/Conf/config.php
-git status
-git branch 
-git branch info_oscar
-git branch 
-git status
-git checkout new_dev 
-git branch 
-git branch -a
-git branch 
-git pull
-git pull origin new_dev 
+git branch
 git pull
 git pull
 git pull
-git status
-git log
-git log
-git branch 
-git branch -a
-git branch -a
-git branch -a
-git branch -a
 git fetch -p
+git fetch
 git pull
+git branch
+git branch app_oscar
+git branch
+git checkout app_oscar 
+git branch
 git status
-git checkout -b origin/analysis
-git glog
+git status
+git status
+git diff
+git diff --color
+git diff --color
+git status
+git add static.huanhuba.net/images/home/android.png
+git status
+git commit -am "落地页文字调整及二维码图片调整"
+git
+git status
+git merge
+git branch
+git checkout new_dev 
+git pull
+git merge app_oscar 
+git log
+../dist.web.sh c5e01 HEAD
+git status
+git push
+git push
+git pull
+git pull
+git pull
+git branch
+git branch reg_oscar
+git pull
+git checkout reg_oscar 
+git branch
+git branch
+git status
+git status
+git add .
+git status
+git commit -am "推荐人员邀请人数统计"
+git status
+git branch
+git checkout new_dev 
+git pull
+git pull
+git pull
+git log
+git branch
+git pull
+git log
+git merge reg_oscar 
+git status
+git push
+git push
+git log
+../dist.web.sh f45dad HEAD
+git status
+git pull
+su -
+cd workspace/web/
+git branch
+git status
+git checkout -- op.huanhuba.net/hhb/invite.php
+git status
+git pull
+git pull
+git fetch -p
+git fetch
+git pull
+git branch hhb_oscar
+git branch
+git checkout hhb_oscar 
+git status
+git status
+git diff --color
+git diff --color
+git status
+git commit -am "hhb后台邀请人数统计sql优化"
 git status
 git checkout new_dev 
-git branch -d origin/analysis
-git checkout -b analysis origin/analysis
-git status
-git checkout analysis_oscar 
-git log
-git status
-git status
-git commit -am "分钟数据二次修改 by mark"
+git pull
+git merge hhb_oscar 
 git status
 git push
 git log
-git log
-git status
-git checkout m.huanhuba.net/Application/Common/Conf/config.php
-git status
-git commit -am "分钟数据页面样式修改"
-git status
-git push
-git push
-git push
-git status
-git log
-git checkout analysis
-git status 
-git checkout analysis
+../dist.web.sh e75294e HEAD
+../dist.web.sh 880364 HEAD
+cd ..
+cd mongodb/
 ll
-cd scripts/
+mongorestore -d hhb_new --directoryperdb hhb_new
+mongo
+free -m
+top 
+cat /proc/cpuinfo 
+cat /proc/cpuinfo |grep "processor"|wc -l
+cat /proc/cpuinfo |grep "cores"|uniq
+cat /proc/cpuinfo |grep "cores"
+cat /proc/cpuinfo |grep "physical id"|sort |uniq|wc -l
+cat /proc/cpuinfo | grep name | cut -f2 -d: | uniq -c
+ll /etc/
+cat /etc/redhat-release 
+cat /etc/redhat-lsb/
+cd /etc/redhat-lsb/
 ll
+cat lsb_killproc 
+cd 
+l
+pwd
+mongo
+su -
+cd workspace/web/
+git branch
+git pull
+ll /opt/rh/mysql55/root/etc/my.cnf
+su -
+su -
+pwd
+free -d
+free -m
+pwd
+ifconfig
+su -
+cd workspace/web/
+cd workspace/web/
+ll
+cd ..
+ll
+ll
+cd web/
+ll
+git branch
+git status
+git pull
+git pull
+git pull
+git fetch -p
+git fetch 
+git pull
+git branch
+git branch -D app_oscar 
+git branch -D hhb_oscar 
+git branch -D info_bug 
+git branch -D info_update 
+git branch
+git branch reg_oscar 
+git branch -D reg_oscar 
+git branch seo_oscar 
+git branch -D seo_oscar 
+git branch
+git branch -D sql_lamu 
+git branch
+git status
+git log --decorate --graph --oneline --color
+pwd
+/Users/oscar 
+git log --decorate --graph --oneline --color
+top
+free -m
+su -
+pwd
+cd ../mysql/
+ll
+mysqldumpslow select_slow.log 
+mysqldumpslow --help
+mysql -uroot -proot
+mysqldumpslow --help
+mysqldumpslow /var/log/mysql/slow-log
+mysql -uroot -proot
+mysqldumpslow /var/log/mysql/slow-log
+mysqldumpslow --help
+mysqldumpslow s c -/var/log/mysql/slow-log
+mysqldumpslow -s c -/var/log/mysql/slow-log
+mysqldumpslow -s c -/var/log/mysql/slow-log
+mysqldumpslow -s c /var/log/mysql/slow-log
+mysqldumpslow -s c -t 3 /var/log/mysql/slow-log
+mysqldumpslow --help
+mysqldumpslow -s c -t 3 /var/log/mysql/slow-log
+mysqldumpslow -s c -t 3 -l /var/log/mysql/slow-log
+mysqldumpslow --help
+mysqldumpslow -s c -t 3 -l /var/log/mysql/slow-log
+mysqldumpslow -s c -t 3 -a /var/log/mysql/slow-log
+mysqldumpslow -s c -t 3 -l /var/log/mysql/slow-log
+mysqldumpslow -s c -t 3 -l -a /var/log/mysql/slow-log
+mysqldumpslow -s c -t 3 -a /var/log/mysql/slow-log
+mysqldumpslow -s c -t 3 /var/log/mysql/slow-log
+mysqldumpslow -s c -t 3 /var/log/mysql/slow-log
+mysqldumpslow -s c -t 3 -a /var/log/mysql/slow-log
+mysqldumpslow -s c -t 3 -n 2 /var/log/mysql/slow-log
+mysqldumpslow -s c -t 1 -n 2 /var/log/mysql/slow-log
+mysqldumpslow -s c -t 1 -n 4 /var/log/mysql/slow-log
+mysqldumpslow -s c -n 4 /var/log/mysql/slow-log
+mysqldumpslow -s c -t 10 /var/log/mysql/slow-log
+mysqldumpslow -s c -t 5 /var/log/mysql/slow-log
+mysqldumpslow -s c -t 5 -p "box_double" /var/log/mysql/slow-log
+mysqldumpslow -s c -t 5 -g "box_double" /var/log/mysql/slow-log
+mysqldumpslow -s c -t 5 -g "box_double" -a /var/log/mysql/slow-log
+mysqldumpslow -s c -t 5 -g "box_double" -a /var/log/mysql/slow-log
+mysqldumpslow -s c -t 5 -g "box_double" -a /var/log/mysql/slow-log
+mysqldumpslow -s c -t 5 /var/log/mysql/slow-log
+mysqldumpslow -s c -t 5 -h 'root' /var/log/mysql/slow-log
+mysqldumpslow -s c -t 5 -h '*' /var/log/mysql/slow-log
+mysqldumpslow -s c -t 3 -h '*' /var/log/mysql/slow-log
+mysqldumpslow -s c -t 3 -h 'localhost' /var/log/mysql/slow-log
+mysqldumpslow -s c -t 3 -h "localhost" /var/log/mysql/slow-log
+mysqldumpslow -s c -t 3 -i "root" /var/log/mysql/slow-log
+mysqldumpslow -s c -t 3 -i "root" /var/log/mysql/slow-log
+mysqldumpslow -s c -t 3  /var/log/mysql/slow-log
+mysqldumpslow -s at -t 3  /var/log/mysql/slow-log
+mysqldumpslow -s c -t 3  /var/log/mysql/slow-log
+mysqldumpslow -s at -t 3  /var/log/mysql/slow-log
+mysqldumpslow -s c -t 3  /var/log/mysql/slow-log
+mysqldumpslow -s t -t 3  /var/log/mysql/slow-log
+mysqldumpslow -s at -t 3  /var/log/mysql/slow-log
+mysqldumpslow -s at -t 3  /var/log/mysql/slow-log
+pwd
+ll
+mysqldumpslow -s at -t 3  select_slow.log 
+mysqldumpslow -s c -t 3  select_slow.log 
+mysqldumpslow -s c -t 3  select_slow.log 
+mysqldumpslow -s c -t 1  select_slow.log 
+mysqldumpslow -s c -t 1  select_slow.log 
+ll
+mysqldumpslow -s c -t 1  slow.log 
+mysqldumpslow -s c -r -t 1  slow.log 
+mysqldumpslow -s c -t 3  slow.log 
+mysqldumpslow -s t -t 3  slow.log 
+mysqldumpslow -s at -t 3  slow.log 
+mysqldumpslow -s l -t 3  slow.log 
+mysqldumpslow -s al -t 3  slow.log 
+mysqldumpslow -s r -t 3  slow.log 
+mysqldumpslow -s ar -t 3  slow.log 
+mysqlsla  /var/log/mysql/slow-log
+mysqlsla  /var/log/mysql/slow-log
+mysqlsla  /var/log/mysql/slow-log
+mysqlsla  /var/log/mysql/slow-log
+mysqlsla  /var/log/mysql/slow-log > ~/workspace/mysql/result.sql
+mysqlsla  /var/log/mysql/slow-log > ~/workspace/mysql/result.sql
+mysqlsla  /var/log/mysql/slow-log > ~/workspace/mysql/result1.sql
+ll
+mysqlsla
+mysqlsla --h
+mysqlsla --help
+free -m
+su -
+exit
+cd workspace/mysql/
+ll
+ll
+mysqlsla slow.log 
+history 
+mysqlsla slow.log 
+mysqlsla slow.log 
+mysqlsla /var/log/mysql/slow-log 
+mysqlsla /var/log/mysql/slow-log 
+mysqlsla /var/log/mysql/slow-log > cccccc.sql
+cd ..
+cd web/
+pwd
+ll
+git branch
+git branch -a
+git branch 
+git fetch -p
+git fetch -p
+git fetch
+git branch
+git pull
+git pull
+git pull
+git branch pic_oscar
+git branch
+git checkout pic_oscar 
+git branch
+git status
+git diff
+git diff --color
 git status 
 git add .
-git status 
-git commit -am "scripts"
+git commit -am "banner update"
 git status
-git checkout analysis_oscar 
+git push origin pic_oscar
+git branch 
+git branch -a
 git status
-git status
-git status
-git status
-git status
-git status
-git status
-git status
-git status
-git log
-git status
-git commit -m "分钟数据页面样式修改2"
-git commit -am "分钟数据页面样式修改2"
-git status
-git log
-git status
-git push
-git push
-git push
-git status 
-git checkout analysis
-git status
-vi /etc/nginx/nginx.conf 
-vi /etc/nginx/conf.d/hhb.conf 
+pwd
+cd workspace/web/
+ll
+cd ..
+ll
+ll -a
+pwd
+su -
+pwd
+python
+yum update python
+su -
+pwd
+pwd
+pwd
+cd .
+cd ..
+ll
+cat getip2.py 
+mail
+su -
 su -
 ll
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-cat /home/oscar/workspace/web/m.huanhuba.net/Application/Common/Conf/config.php
-cat /home/oscar/workspace/web/m.huanhuba.net/Application/Common/Conf/config.php
-cat /home/oscar/workspace/web/m.huanhuba.net/Application/Common/Conf/config.php
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-vi /home/oscar/workspace/web/m.huanhuba.net/Application/Home/Common/function.php
-vi /home/oscar/workspace/web/m.huanhuba.net/Application/Home/Common/function.php
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-git status 
-git commit - m "commit"
-git commit -m "commit"
-git commit -am "commit"
-git status 
-git checkout analysis_oscar 
-git status
-git status 
-git status 
-git commit -am "分钟时间页面样式内容修改"
-git status 
-git push
-git log
-git checkout analysis
-git status
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-su -
-su -
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-git status
-php info_analysis.php 
-curl info.huanhuba.net/league/analysis/id/454359
+vim testmail
+cat testmail
+mail
+mail -s 'test mail' mail@root < testmail
+mail -s 'test mail' mail@user1.163.com < testmail
+mail -s 'test mail' root < testmail
+mail
+mail -s 'test mail' user1@163.com < testmail
+mail -s 'test mail' user1 < testmail
+mail -s 'test mail' 717791009@qq.com < testmail
+mail
+mail -s 'test mail' qictang@163.com < testmail
+mail
+mail
+mail
+mail
+mail
+mail -s 'perfect action' qictang@163.com < testmail
+mail -s 'perfect action' admin@qsnower.com < testmail
+mail
+vim testmail 
+mv testmail maildoc
+mail -s 'perfect action' admin@qsnower.com < maildoc 
+mail
+hostname
+hostname
+hostname
+hostname
+su - admin
+exit
+uname -n
 ll
-git status
-curl info.huanhuba.net/league/analysis/id/454359
-curl info.huanhuba.net/league/analysis/id/454359 > page.html
-curl -o page.html http://info.huanhuba.net/league/analysis/id/454359
-curl -o page.html http://info.huanhuba.net/league/analysis/id/454359
-curl info.huanhuba.net/league/analysis/id/454359
-curl info.huanhuba.net/league/analysis/id/454359
-curl info.huanhuba.net/league/analysis/id/454359
-curl info.huanhuba.net/league/analysis/id/454359
+mail -s 'perfect action' admin@qsnower.com < maildoc 
+mail
+mail
+mail
+mail
+mail -s 'perfect action' qictang@163.com < maildoc 
+mail
+mail -s 'perfect action' qictang@163.com < maildoc 
+netstat -tnpl
+netstat -tnpl
+chkconfig --list | grep sendmail
+chkconfig --list | grep mail
+netstat -tnpl
+mail -s 'perfect action' qictang@163.com < maildoc 
+q
+cat /home/oscar/dead.letter 
+mail
+mail -s 'perfect action' root < maildoc 
+mail -s 'perfect action' root < maildoc 
+hostname
+vi /etc/hosts
+hostname
+mail -s 'perfect action' qictang@163.com < maildoc 
+mail -s 'abc test' qictang@163.com < maildoc 
 ll
-php info_analysis.php 
-php info_analysis.php 
-curl info.huanhuba.net/league/analysis/id/454357
-info.huanhuba.net/league/analysis/id/454357
-curl http://info.huanhuba.net/league/analysis/id/454357
-su -
-su -
-curl http://info.huanhuba.net/league/analysis/id/454357
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-time php info_analysis.php 
-time php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-php info_analysis.php 
-git status
-git status
-time php info_analysis.php 
-time php info_analysis.php 
-git status
-php info_analysis.php 
-su -
+cat maildoc 
+mail -s 'abc test' qictang@163.com < maildoc 
+mail -s 'abc test' qictang@163.com < maildoc 
+mail
+mail -s 'abc test' qictang@163.com < maildoc 
+ll
+mail
+mail -s 'abc test' qictang@163.com < maildoc 
+mail -s 'abc test' oscar < maildoc 
+mail
+mail -s 'abc test' root < maildoc 
+mail
+mail
+mail -s 'abc test' root 
+su - user1
+pwd
+ll
+mail -s 'abc test' root < getip2.py 
+mail -s 'abc test' root < getip2.py 
+mail
+mail -s 'abc test' root < getip2.py 
+exit
