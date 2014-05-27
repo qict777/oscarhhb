@@ -1,5 +1,0 @@
-host oscar
-	user git
-	hostname redmine.huanhuba.net
-	port 22
-	identityfile ~/.ssh/oscar

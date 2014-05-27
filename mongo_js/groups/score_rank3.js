@@ -42,8 +42,6 @@ for (var i = 0, len = s.length; i < len; i++) {
 
           b = db.match.find({"_id":{"$in":m_ids}},{"_id":0,"home_team_id":1,"away_team_id":1});
 
-          // b = db.match.find({"_id":{"$in":m_ids},"full_home_score":{"$ne":null},"full_away_score":{"$ne":null},"half_home_score":{"$ne":null},"half_away_score":{"$ne":null}},{"_id":0,"home_team_id":1,"away_team_id":1});
-
           mn_ids = {};
           A = [];
           B = [];

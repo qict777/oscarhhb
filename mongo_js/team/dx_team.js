@@ -52,6 +52,8 @@ leagueinfo.forEach(function(item) {
       for (var id in mn_ids) {
 
         var team_id = parseInt(id);
+        teaminfo = db.team.findOne({_id: team_id}, {_id: 0,name: 1});
+        teamname = teaminfo.name;
 
 // --------------------------------------------------------------------------------------------
 // 大小球 赛 大球  走 小球  大球% 走%  小球%  开始计算

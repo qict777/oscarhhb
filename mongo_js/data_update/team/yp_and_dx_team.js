@@ -186,9 +186,25 @@ league_info.forEach(function(item){
    
                   dx_count_team("home_team_id","full_dx","full_home_score","full_away_score");
 
-                  var data_home_r = [NumberInt(dx_home_total), NumberInt(home_w_dx), NumberInt(home_g_dx), NumberInt(home_l_dx), home_per_w_dx, home_per_g_dx, home_per_l_dx];
+                  var data_home_r = [NumberInt(dx_home_total), NumberInt(home_w_dx), NumberInt(home_g_dx), NumberInt(home_l_dx), home_per_w_dx, home_per_g_dx, home_per_l_dx];                  
 
-                  db.team.update({"_id": team_id, "access_total.dx_home.league_id" : league_id, "access_total.dx_home.year" : season_id}, {"$set":{"access_total.dx_home.$.data":data_home_r}});
+                  //
+
+                  var dx_home_r_tem = res_tem("dx_home");
+
+                  var dx_home_r_res = {"league_id":NumberInt(league_id),"year":season_id,"league_name":league_name,"data":data_home_r}
+
+                  if(dx_home_r_tem){
+
+                    db.team.update({"_id": team_id, "access_total.dx_home.league_id" : league_id, "access_total.dx_home.year" : season_id}, {"$set":{"access_total.dx_home.$.data":data_home_r}});
+
+                  }else{
+
+                    db.team.update({"_id":team_id}, {"$push":{"access_total.dx_home":dx_home_r_res}});
+
+                  }
+
+                  //
 
                   var v11 = dx_home_total ;
                   var v12 = home_w_dx ;
@@ -203,7 +219,25 @@ league_info.forEach(function(item){
 
                   var data_away_r = [NumberInt(dx_home_total), NumberInt(home_w_dx), NumberInt(home_g_dx), NumberInt(home_l_dx), home_per_w_dx, home_per_g_dx, home_per_l_dx];
 
-                  db.team.update({"_id": team_id, "access_total.dx_away.league_id" : league_id, "access_total.dx_away.year" : season_id}, {"$set":{"access_total.dx_away.$.data":data_away_r}});
+                  
+
+                  //
+
+                  var dx_away_r_tem = res_tem("dx_away");
+
+                  var dx_away_r_res = {"league_id":NumberInt(league_id),"year":season_id,"league_name":league_name,"data":data_away_r}
+
+                  if(dx_away_r_tem){
+
+                    db.team.update({"_id": team_id, "access_total.dx_away.league_id" : league_id, "access_total.dx_away.year" : season_id}, {"$set":{"access_total.dx_away.$.data":data_away_r}});
+
+                  }else{
+
+                    db.team.update({"_id":team_id}, {"$push":{"access_total.dx_away":dx_away_r_res}});
+
+                  }
+
+                  //
 
 // total 全场大小球 赛 大球  走 小球  大球% 走%  小球%
 
@@ -228,7 +262,25 @@ league_info.forEach(function(item){
 
                   var data_total_r = [NumberInt(v1),NumberInt(v2),NumberInt(v3),NumberInt(v4),v5,v6,v7];
 
-                  db.team.update({"_id": team_id, "access_total.dx_total.league_id" : league_id, "access_total.dx_total.year" : season_id}, {"$set":{"access_total.dx_total.$.data":data_total_r}});
+                  
+
+                  //
+
+                  var dx_total_r_tem = res_tem("dx_total");
+
+                  var dx_total_r_res = {"league_id":NumberInt(league_id),"year":season_id,"league_name":league_name,"data":data_total_r}
+
+                  if(dx_total_r_tem){
+
+                    db.team.update({"_id": team_id, "access_total.dx_total.league_id" : league_id, "access_total.dx_total.year" : season_id}, {"$set":{"access_total.dx_total.$.data":data_total_r}});
+
+                  }else{
+
+                    db.team.update({"_id":team_id}, {"$push":{"access_total.dx_total":dx_total_r_res}});
+
+                  }
+
+                  //
 
 // home 半场大小球 赛 大球  走 小球  大球% 走%  小球%
 
@@ -237,7 +289,27 @@ league_info.forEach(function(item){
 
                   var data_home_r_half = [NumberInt(dx_home_total), NumberInt(home_w_dx), NumberInt(home_g_dx), NumberInt(home_l_dx), home_per_w_dx, home_per_g_dx, home_per_l_dx];
 
-                  db.team.update({"_id": team_id, "access_total.dx_home_half.league_id" : league_id, "access_total.dx_home_half.year" : season_id}, {"$set":{"access_total.dx_home_half.$.data":data_home_r_half}});
+                  
+
+
+                  //
+
+                  var dx_home_r_half_tem = res_tem("dx_home_half");
+
+                  var dx_home_r_half_res = {"league_id":NumberInt(league_id),"year":season_id,"league_name":league_name,"data":data_home_r_half}
+
+                  if(dx_home_r_half_tem){
+
+                    db.team.update({"_id": team_id, "access_total.dx_home_half.league_id" : league_id, "access_total.dx_home_half.year" : season_id}, {"$set":{"access_total.dx_home_half.$.data":data_home_r_half}});
+
+                  }else{
+
+                    db.team.update({"_id":team_id}, {"$push":{"access_total.dx_home_half":dx_home_r_half_res}});
+
+                  }
+
+                  //
+
 
                   var v11 = dx_home_total ;
                   var v12 = home_w_dx ;
@@ -251,7 +323,25 @@ league_info.forEach(function(item){
 
                   var data_away_r_half = [NumberInt(dx_home_total), NumberInt(home_w_dx), NumberInt(home_g_dx), NumberInt(home_l_dx), home_per_w_dx, home_per_g_dx, home_per_l_dx];
 
-                  db.team.update({"_id": team_id, "access_total.dx_away_half.league_id" : league_id, "access_total.dx_away_half.year" : season_id}, {"$set":{"access_total.dx_away_half.$.data":data_away_r_half}});
+                  
+
+                  //
+
+                  var dx_away_r_half_tem = res_tem("dx_away_half");
+
+                  var dx_away_r_half_res = {"league_id":NumberInt(league_id),"year":season_id,"league_name":league_name,"data":data_away_r_half}
+
+                  if(dx_away_r_half_tem){
+
+                    db.team.update({"_id": team_id, "access_total.dx_away_half.league_id" : league_id, "access_total.dx_away_half.year" : season_id}, {"$set":{"access_total.dx_away_half.$.data":data_away_r_half}});
+
+                  }else{
+
+                    db.team.update({"_id":team_id}, {"$push":{"access_total.dx_away_half":dx_away_r_half_res}});
+
+                  }
+
+                  //
 
 // total 半场大小球 赛 大球  走 小球  大球% 走%  小球%
 
@@ -276,7 +366,47 @@ league_info.forEach(function(item){
 
                   var data_total_r_half = [NumberInt(v1),NumberInt(v2),NumberInt(v3),NumberInt(v4),v5,v6,v7];
 
-                  db.team.update({"_id": team_id, "access_total.dx_total_half.league_id" : league_id, "access_total.dx_total_half.year" : season_id}, {"$set":{"access_total.dx_total_half.$.data":data_total_r_half}});
+                  
+
+                  //
+
+                  var dx_total_r_half_tem = res_tem("dx_total_half");
+
+                  var dx_total_r_half_res = {"league_id":NumberInt(league_id),"year":season_id,"league_name":league_name,"data":data_total_r_half}
+
+                  if(dx_total_r_half_tem){
+
+                    db.team.update({"_id": team_id, "access_total.dx_total_half.league_id" : league_id, "access_total.dx_total_half.year" : season_id}, {"$set":{"access_total.dx_total_half.$.data":data_total_r_half}});
+
+                  }else{
+
+                    db.team.update({"_id":team_id}, {"$push":{"access_total.dx_total_half":dx_total_r_half_res}});
+
+                  }
+
+                  //
+
+// 判断新的year是否存在            
+
+                  function res_tem(x){
+
+                      var m= '{"_id":'+team_id+',"access_total.';
+
+                      var n= '.year":"'+season_id+'"';
+
+                      var p= ',"access_total.';
+
+                      var q= '.league_id":'+league_id+'}';
+                        
+                      var c=m+x+n+p+x+q;
+
+                    eval('var field_tem='+ c);
+
+                      var result_tem = db.team.find(field_tem).count();
+
+                      return result_tem;
+
+                  }
 
 // 大小盘路函数计算开始
 
@@ -346,7 +476,25 @@ league_info.forEach(function(item){
 
                   var data_home_r = [NumberInt(yp_home_total),NumberInt(yp_home_up), NumberInt(yp_home_mid), NumberInt(yp_home_down), NumberInt(home_w_yp), NumberInt(home_g_yp), NumberInt(home_l_yp), NumberInt(home_gd_yp), home_per_w_yp, home_per_g_yp, home_per_l_yp];
 
-                  db.team.update({"_id": team_id, "access_total.yp_home.league_id" : league_id, "access_total.yp_home.year" : season_id}, {"$set":{"access_total.yp_home.$.data":data_home_r}});
+                  
+
+                  //
+
+                  var yp_home_r_tem = res_tem("yp_home");
+
+                  var yp_home_r_res = {"league_id":NumberInt(league_id),"year":season_id,"league_name":league_name,"data":data_home_r}
+
+                  if(yp_home_r_tem){
+
+                    db.team.update({"_id": team_id, "access_total.yp_home.league_id" : league_id, "access_total.yp_home.year" : season_id}, {"$set":{"access_total.yp_home.$.data":data_home_r}});
+
+                  }else{
+
+                    db.team.update({"_id":team_id}, {"$push":{"access_total.yp_home":yp_home_r_res}});
+
+                  }
+
+                  //
 
                   var v81 = yp_home_total ;
                   var v82 = yp_home_up ;
@@ -366,7 +514,25 @@ league_info.forEach(function(item){
 
                   var data_away_r = [NumberInt(yp_home_total),NumberInt(yp_home_up), NumberInt(yp_home_mid), NumberInt(yp_home_down), NumberInt(home_w_yp), NumberInt(home_g_yp), NumberInt(home_l_yp), NumberInt(home_gd_yp), home_per_w_yp, home_per_g_yp, home_per_l_yp];
 
-                  db.team.update({"_id": team_id, "access_total.yp_away.league_id" : league_id, "access_total.yp_away.year" : season_id}, {"$set":{"access_total.yp_away.$.data":data_away_r}});
+                  
+
+                  //
+
+                  var yp_away_r_tem = res_tem("yp_away");
+
+                  var yp_away_r_res = {"league_id":NumberInt(league_id),"year":season_id,"league_name":league_name,"data":data_away_r}
+
+                  if(yp_away_r_tem){
+
+                    db.team.update({"_id": team_id, "access_total.yp_away.league_id" : league_id, "access_total.yp_away.year" : season_id}, {"$set":{"access_total.yp_away.$.data":data_away_r}});
+
+                  }else{
+
+                    db.team.update({"_id":team_id}, {"$push":{"access_total.yp_away":yp_away_r_res}});
+
+                  }
+
+                  //
 
                   var v91 = v81 + yp_home_total ;
                   var v92 = v82 + yp_home_up ;
@@ -396,7 +562,25 @@ league_info.forEach(function(item){
 
                   var data_total_r = [NumberInt(v91),NumberInt(v92), NumberInt(v93), NumberInt(v94), NumberInt(v95), NumberInt(v96), NumberInt(v97), NumberInt(v98), home_per_w_yp, home_per_g_yp, home_per_l_yp];
       
-                  db.team.update({"_id": team_id, "access_total.yp_total.league_id" : league_id, "access_total.yp_total.year" : season_id}, {"$set":{"access_total.yp_total.$.data":data_total_r}});
+                  
+
+                  //
+
+                  var yp_total_r_tem = res_tem("yp_total");
+
+                  var yp_total_r_res = {"league_id":NumberInt(league_id),"year":season_id,"league_name":league_name,"data":data_total_r}
+
+                  if(yp_total_r_tem){
+
+                    db.team.update({"_id": team_id, "access_total.yp_total.league_id" : league_id, "access_total.yp_total.year" : season_id}, {"$set":{"access_total.yp_total.$.data":data_total_r}});
+
+                  }else{
+
+                    db.team.update({"_id":team_id}, {"$push":{"access_total.yp_total":yp_total_r_res}});
+
+                  }
+
+                  //
 
 // --------------------------------------------------------------------------------------------
 // home 半场盘路 赛     上盘     平盘     下盘     赢     走     输     净     胜%     走%     负%
@@ -407,7 +591,25 @@ league_info.forEach(function(item){
 
                   var data_home_r_half = [NumberInt(yp_home_total),NumberInt(yp_home_up), NumberInt(yp_home_mid), NumberInt(yp_home_down), NumberInt(home_w_yp), NumberInt(home_g_yp), NumberInt(home_l_yp), NumberInt(home_gd_yp), home_per_w_yp, home_per_g_yp, home_per_l_yp];
 
-                  db.team.update({"_id": team_id, "access_total.yp_home_half.league_id" : league_id, "access_total.yp_home_half.year" : season_id}, {"$set":{"access_total.yp_home_half.$.data":data_home_r_half}});
+                  
+
+                  //
+
+                  var yp_home_half_r_tem = res_tem("yp_home_half");
+
+                  var yp_home_half_r_res = {"league_id":NumberInt(league_id),"year":season_id,"league_name":league_name,"data":data_home_r_half}
+
+                  if(yp_home_half_r_tem){
+
+                    db.team.update({"_id": team_id, "access_total.yp_home_half.league_id" : league_id, "access_total.yp_home_half.year" : season_id}, {"$set":{"access_total.yp_home_half.$.data":data_home_r_half}});
+
+                  }else{
+
+                    db.team.update({"_id":team_id}, {"$push":{"access_total.yp_home_half":yp_home_half_r_res}});
+
+                  }
+
+                  //
 
                   var v71 = yp_home_total ;
                   var v72 = yp_home_up ;
@@ -427,7 +629,25 @@ league_info.forEach(function(item){
 
                  var data_away_r_half = [NumberInt(yp_home_total),NumberInt(yp_home_up), NumberInt(yp_home_mid), NumberInt(yp_home_down), NumberInt(home_w_yp), NumberInt(home_g_yp), NumberInt(home_l_yp), NumberInt(home_gd_yp), home_per_w_yp, home_per_g_yp, home_per_l_yp];
 
-                 db.team.update({"_id": team_id, "access_total.yp_away_half.league_id" : league_id, "access_total.yp_away_half.year" : season_id}, {"$set":{"access_total.yp_away_half.$.data":data_away_r_half}});
+                 
+
+                  //
+
+                  var yp_away_half_r_tem = res_tem("yp_away_half");
+
+                  var yp_away_half_r_res = {"league_id":NumberInt(league_id),"year":season_id,"league_name":league_name,"data":data_away_r_half}
+
+                  if(yp_away_half_r_tem){
+
+                    db.team.update({"_id": team_id, "access_total.yp_away_half.league_id" : league_id, "access_total.yp_away_half.year" : season_id}, {"$set":{"access_total.yp_away_half.$.data":data_away_r_half}});
+
+                  }else{
+
+                    db.team.update({"_id":team_id}, {"$push":{"access_total.yp_away_half":yp_away_half_r_res}});
+
+                  }
+
+                  //
 
                   var v61 = v71 + yp_home_total ;
                   var v62 = v72 + yp_home_up ;
@@ -457,7 +677,25 @@ league_info.forEach(function(item){
 
                   var data_total_r_half = [NumberInt(v61), NumberInt(v62), NumberInt(v63), NumberInt(v64), NumberInt(v65), NumberInt(v66), NumberInt(v67), NumberInt(v68), home_per_w_yp, home_per_g_yp, home_per_l_yp];
 
-                  db.team.update({"_id": team_id, "access_total.yp_total_half.league_id" : league_id, "access_total.yp_total_half.year" : season_id}, {"$set":{"access_total.yp_total_half.$.data":data_total_r_half}});
+                  
+
+                  //
+
+                  var yp_total_half_r_tem = res_tem("yp_total_half");
+
+                  var yp_total_half_r_res = {"league_id":NumberInt(league_id),"year":season_id,"league_name":league_name,"data":data_total_r_half}
+
+                  if(yp_total_half_r_tem){
+
+                    db.team.update({"_id": team_id, "access_total.yp_total_half.league_id" : league_id, "access_total.yp_total_half.year" : season_id}, {"$set":{"access_total.yp_total_half.$.data":data_total_r_half}});
+
+                  }else{
+
+                    db.team.update({"_id":team_id}, {"$push":{"access_total.yp_total_half":yp_total_half_r_res}});
+
+                  }
+
+                  //
 
 // 走球盘路函数计算开始
 

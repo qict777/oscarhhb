@@ -1,4 +1,4 @@
-// 世界杯（国际赛事）以及所有其他赛事中 "league_type":2 的各个最新杯赛比赛的积分统计 2014-03-13
+// 世界杯（国际赛事）以及所有其他赛事中 "league_type":2 的各个最新杯赛比赛的积分统计 2014-03-05
 
 var start_time = new Date().getTime();
 
@@ -33,8 +33,6 @@ league_info.forEach(function(item){
                     r_name = rounds_info['rounds'][r]['name'];
 
                       b = db.match.find({"_id":{"$in":m_ids}},{"_id":0,"home_team_id":1,"away_team_id":1});
-                      
-                      // b = db.match.find({"_id":{"$in":m_ids},"full_home_score":{"$ne":null},"full_away_score":{"$ne":null},"half_home_score":{"$ne":null},"half_away_score":{"$ne":null}},{"_id":0,"home_team_id":1,"away_team_id":1});
 
                       mn_ids = {};
                       A = [];

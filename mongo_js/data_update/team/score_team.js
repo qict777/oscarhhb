@@ -1,4 +1,4 @@
-// 所有联赛球队的各赛季的最新比赛信息更新{全场（主客场）+半场(主客场)}  2014-03-07
+// 所有联赛球队的各赛季的最新比赛信息更新{全场（主客场）+半场(主客场)}  2014-04-23
 
 var start_time = new Date().getTime();
 
@@ -239,7 +239,30 @@ league_info.forEach(function(item){
                 
                 var data_home_r = [NumberInt(home_match_times), NumberInt(home_team_w_num), NumberInt(home_team_d_num), NumberInt(home_team_l_num), NumberInt(home_win_score), NumberInt(home_lose_score), NumberInt(home_gd), home_w_per, home_d_per, home_l_per, home_ave_win, home_ave_lose, NumberInt(home_scores_total)];
 
-                db.team.update({"_id": team_id, "access_total.score_home.league_id" : league_id, "access_total.score_home.year" : season_id}, {"$set":{"access_total.score_home.$.data":data_home_r}});
+                
+
+                //
+
+
+
+                var tem_score_home = db.team.find({"_id": team_id ,"access_total.score_home.league_id" : league_id, "access_total.score_home.year" : season_id}).count();
+
+                var data_home_r_tem = {"league_id":NumberInt(league_id),"year":season_id,"league_name":league_name,"data":data_home_r}
+
+                if(tem_score_home){
+
+                  db.team.update({"_id": team_id, "access_total.score_home.league_id" : league_id, "access_total.score_home.year" : season_id}, {"$set":{"access_total.score_home.$.data":data_home_r}});
+
+                }else{
+
+                  db.team.update({"_id":team_id}, {"$push":{"access_total.score_home":data_home_r_tem}});
+
+                }
+
+
+
+                //
+
 
                 var v11 = home_match_times ;
                 var v12 = home_team_w_num ;
@@ -255,7 +278,35 @@ league_info.forEach(function(item){
 
                 var data_away_r = [NumberInt(home_match_times), NumberInt(home_team_w_num), NumberInt(home_team_d_num), NumberInt(home_team_l_num), NumberInt(home_win_score), NumberInt(home_lose_score), NumberInt(home_gd), home_w_per, home_d_per, home_l_per, home_ave_win, home_ave_lose, NumberInt(home_scores_total)];
 
-                db.team.update({"_id": team_id, "access_total.score_away.league_id" : league_id, "access_total.score_away.year" : season_id}, {"$set":{"access_total.score_away.$.data":data_away_r}});
+                
+
+
+
+                //
+
+
+
+                var tem_score_away = db.team.find({"_id": team_id ,"access_total.score_away.league_id" : league_id, "access_total.score_away.year" : season_id}).count();
+
+                var data_away_r_tem = {"league_id":NumberInt(league_id),"year":season_id,"league_name":league_name,"data":data_away_r}
+
+                if(tem_score_away){
+
+                  db.team.update({"_id": team_id, "access_total.score_away.league_id" : league_id, "access_total.score_away.year" : season_id}, {"$set":{"access_total.score_away.$.data":data_away_r}});
+
+                }else{
+
+                  db.team.update({"_id":team_id}, {"$push":{"access_total.score_away":data_away_r_tem}});
+
+                }
+
+
+
+                //
+
+
+
+
 
         // 主场+客场--全场 赛 胜 平 负 得 失 净 胜%  平%  负%  均得  均失  积分
 
@@ -291,7 +342,36 @@ league_info.forEach(function(item){
 
                 var data_total_r = [NumberInt(v1),NumberInt(v2),NumberInt(v3),NumberInt(v4),NumberInt(v5),NumberInt(v6),NumberInt(v7),v8,v9,v10,v11,v12,NumberInt(v13),NumberInt(six_info[0]),NumberInt(six_info[1]),NumberInt(six_info[2]),NumberInt(six_info[3]),NumberInt(six_info[4]),NumberInt(six_info[5]),NumberInt(six_info[6]),NumberInt(six_info[7]),six_info[8]];
 
-                db.team.update({"_id": team_id, "access_total.score_total.league_id" : league_id, "access_total.score_total.year" : season_id}, {"$set":{"access_total.score_total.$.data":data_total_r}});
+                
+
+
+
+                //
+
+
+
+                var tem_score_total = db.team.find({"_id": team_id ,"access_total.score_total.league_id" : league_id, "access_total.score_total.year" : season_id}).count();
+
+                var data_total_r_tem = {"league_id":NumberInt(league_id),"year":season_id,"league_name":league_name,"data":data_total_r}
+
+                if(tem_score_total){
+
+                  db.team.update({"_id": team_id, "access_total.score_total.league_id" : league_id, "access_total.score_total.year" : season_id}, {"$set":{"access_total.score_total.$.data":data_total_r}});
+
+                }else{
+
+                  db.team.update({"_id":team_id}, {"$push":{"access_total.score_total":data_total_r_tem}});
+
+                }
+
+
+
+                //
+
+
+
+
+
 
         // // 主场--半场 赛 胜 平 负 得 失 净 胜%  平%  负%  均得  均失  积分
 
@@ -299,7 +379,34 @@ league_info.forEach(function(item){
 
                var data_home_r_half = [NumberInt(home_match_times), NumberInt(home_team_w_num), NumberInt(home_team_d_num), NumberInt(home_team_l_num), NumberInt(home_win_score), NumberInt(home_lose_score), NumberInt(home_gd), home_w_per, home_d_per, home_l_per, home_ave_win, home_ave_lose, NumberInt(home_scores_total)];
 
-               db.team.update({"_id": team_id, "access_total.score_home_half.league_id" : league_id, "access_total.score_home_half.year" : season_id}, {"$set":{"access_total.score_home_half.$.data":data_home_r_half}});
+               
+
+
+
+                //
+
+
+
+                var tem_score_home_half = db.team.find({"_id": team_id ,"access_total.score_home_half.league_id" : league_id, "access_total.score_home_half.year" : season_id}).count();
+
+                var data_home_r_half_tem = {"league_id":NumberInt(league_id),"year":season_id,"league_name":league_name,"data":data_home_r_half}
+
+                if(tem_score_home_half){
+
+                  db.team.update({"_id": team_id, "access_total.score_home_half.league_id" : league_id, "access_total.score_home_half.year" : season_id}, {"$set":{"access_total.score_home_half.$.data":data_home_r_half}});
+
+                }else{
+
+                  db.team.update({"_id":team_id}, {"$push":{"access_total.score_home_half":data_home_r_half_tem}});
+
+                }
+
+
+
+                //
+
+
+
 
                 var k11 = home_match_times ;
                 var k12 = home_team_w_num ;
@@ -315,7 +422,33 @@ league_info.forEach(function(item){
 
                 var data_away_r_half = [NumberInt(home_match_times), NumberInt(home_team_w_num), NumberInt(home_team_d_num), NumberInt(home_team_l_num), NumberInt(home_win_score), NumberInt(home_lose_score), NumberInt(home_gd), home_w_per, home_d_per, home_l_per, home_ave_win, home_ave_lose, NumberInt(home_scores_total)];
 
-                db.team.update({"_id": team_id, "access_total.score_away_half.league_id" : league_id, "access_total.score_away_half.year" : season_id}, {"$set":{"access_total.score_away_half.$.data":data_away_r_half}});
+                
+
+
+                //
+
+
+
+                var tem_score_away_half = db.team.find({"_id": team_id ,"access_total.score_away_half.league_id" : league_id, "access_total.score_away_half.year" : season_id}).count();
+
+                var data_away_r_half_tem = {"league_id":NumberInt(league_id),"year":season_id,"league_name":league_name,"data":data_away_r_half}
+
+                if(tem_score_away_half){
+
+                  db.team.update({"_id": team_id, "access_total.score_away_half.league_id" : league_id, "access_total.score_away_half.year" : season_id}, {"$set":{"access_total.score_away_half.$.data":data_away_r_half}});
+
+                }else{
+
+                  db.team.update({"_id":team_id}, {"$push":{"access_total.score_away_half":data_away_r_half_tem}});
+
+                }
+
+
+
+                //
+
+
+
 
         // // 主场+客场--半场 赛 胜 平 负 得 失 净 胜%  平%  负%  均得  均失  积分
 
@@ -350,8 +483,28 @@ league_info.forEach(function(item){
                 box_six("half_home_score","half_away_score");
 
                 var data_total_r_half = [NumberInt(k1),NumberInt(k2),NumberInt(k3),NumberInt(k4),NumberInt(k5),NumberInt(k6),NumberInt(k7),k8,k9,k10,k11,k12,NumberInt(k13),NumberInt(six_info[0]),NumberInt(six_info[1]),NumberInt(six_info[2]),NumberInt(six_info[3]),NumberInt(six_info[4]),NumberInt(six_info[5]),NumberInt(six_info[6]),NumberInt(six_info[7]),six_info[8]];
-           
-                db.team.update({"_id": team_id, "access_total.score_total_half.league_id" : league_id, "access_total.score_total_half.year" : season_id}, {"$set":{"access_total.score_total_half.$.data":data_total_r_half}});
+                
+                //
+
+
+
+                var tem_score_total_half = db.team.find({"_id": team_id ,"access_total.score_total_half.league_id" : league_id, "access_total.score_total_half.year" : season_id}).count();
+
+                var data_total_r_half_tem = {"league_id":NumberInt(league_id),"year":season_id,"league_name":league_name,"data":data_total_r_half}
+
+                if(tem_score_total_half){
+
+                  db.team.update({"_id": team_id, "access_total.score_total_half.league_id" : league_id, "access_total.score_total_half.year" : season_id}, {"$set":{"access_total.score_total_half.$.data":data_total_r_half}});
+
+                }else{
+
+                  db.team.update({"_id":team_id}, {"$push":{"access_total.score_total_half":data_total_r_half_tem}});
+
+                }
+
+
+
+                //
 
               }
 
